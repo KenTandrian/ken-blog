@@ -1,9 +1,10 @@
-import React from "react";
+"use client";
+import Link from "next/link";
 
-type Props = { children: React.ReactNode };
+type Props = { children: React.ReactNode; route: string };
 
-const ClientSideRoute = ({ children }: Props) => {
-  return <div>ClientSideRoute</div>;
+const ClientSideRoute = ({ children, route }: Props) => {
+  return <Link href={route}>{children}</Link>;
 };
 
 export default ClientSideRoute;
