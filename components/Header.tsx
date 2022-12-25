@@ -17,7 +17,14 @@ const Header = () => {
         </Link>
         <h1>My Blog</h1>
       </div>
-      <div></div>
+      <div>
+        <Link
+          href="https://www.papareact.com/universityofcode"
+          className="px-5 py-2 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center"
+        >
+          Sign up to the University of Code
+        </Link>
+      </div>
     </header>
   );
 };
