@@ -7,10 +7,10 @@ const Logo = (props: any) => {
   return (
     <div className="flex items-center space-x-1">
       <Image
-        className="rounded-full object-cover"
+        className="object-cover"
         height={30}
         width={30}
-        src="https://links.papareact.com/1m8"
+        src="/kt-logo-light.webp"
         alt="logo"
       />
       <>{renderDefault(props)}</>
