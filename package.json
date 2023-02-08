@@ -8,13 +8,13 @@
   "dependencies": {
     "@heroicons/react": "^2.0.14",
     "@portabletext/react": "^2.0.1",
-    "@sanity/vision": "^3.1.2",
+    "@sanity/vision": "^3.2.6",
     "@tailwindcss/line-clamp": "^0.4.2",
     "next": "latest",
     "next-sanity": "^3.1.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "^3.1.2",
+    "sanity": "^3.2.6",
     "sanity-plugin-iframe-pane": "^2.1.1",
     "sharp": "^0.31.3",
     "styled-components": "^5.3.6"
