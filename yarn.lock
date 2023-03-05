@@ -5625,10 +5625,10 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
-sanity-plugin-iframe-pane@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.1.1.tgz#ddbf56412127dcb56c259bb748d43263589a0043"
-  integrity sha512-uyZUxcWApnDMrBu4jfX3xshs5Yy3eTOI4iNUV6i7v1Zt2vxlF78fp6q+VNvNlzexM5znWT24kEAQdaF4swGutw==
+sanity-plugin-iframe-pane@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.2.0.tgz#a5e88f786a3b62d102902b48b3ebe7310307f02b"
+  integrity sha512-m55cnkKIjUqOM/s8xJMaZ6JF7lDiLhqXMHHK5uo0rO2/0+HlGLAtHDxdkZBK2kU7KQfjycG4nOYWorzZNPIlUw==
   dependencies:
     "@sanity/icons" "^2.0.0"
     "@sanity/incompatible-plugin" "^1.0.4"
