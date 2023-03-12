@@ -8,7 +8,7 @@
   "dependencies": {
     "@heroicons/react": "^2.0.16",
     "@portabletext/react": "^2.0.2",
-    "@sanity/vision": "^3.5.1",
+    "@sanity/vision": "^3.6.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "next": "latest",
     "next-sanity": "^4.1.5",
