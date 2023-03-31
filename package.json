@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.16",
+    "@heroicons/react": "^2.0.17",
     "@portabletext/react": "^2.0.2",
     "@sanity/vision": "^3.8.1",
     "@tailwindcss/line-clamp": "^0.4.3",
