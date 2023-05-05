@@ -16,7 +16,7 @@ const query = groq`
 
 export const revalidate = 30; // revaliate this page every 30 seconds
 const HomePage = async () => {
-  if (draftMode()) {
+  if (draftMode().isEnabled) {
     return (
       <PreviewSuspense
         fallback={
