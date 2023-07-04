@@ -1,7 +1,7 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import React from "react";
-import urlFor from "../lib/urlFor";
+import urlFor from "@/lib/urlFor";
 
 const BlogItem = ({ post }: { post: Post }) => {
   return (

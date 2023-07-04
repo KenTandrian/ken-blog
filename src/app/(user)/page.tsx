@@ -1,9 +1,9 @@
 import React from "react";
 import { draftMode } from "next/headers";
-import { getCachedClient } from "../../lib/sanity.preview";
-import PreviewProvider from "../../components/PreviewProvider";
-import PreviewBlogList from "../../components/PreviewBlogList";
-import BlogList from "../../components/BlogList";
+import { getCachedClient } from "@/lib/sanity.preview";
+import PreviewProvider from "@/components/PreviewProvider";
+import PreviewBlogList from "@/components/PreviewBlogList";
+import BlogList from "@/components/BlogList";
 import { postsQuery } from "@/lib/queries";
 
 export const revalidate = 30; // revaliate this page every 30 seconds
