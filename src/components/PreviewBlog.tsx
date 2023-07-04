@@ -2,15 +2,17 @@
 
 import React from "react";
 import { useLiveQuery } from "next-sanity/preview";
-import BlogList from "./BlogList";
-import { postsQuery } from "@/lib/queries";
+import { postQuery } from "@/lib/queries";
+import Blog from "./Blog";
+import { useParams } from "next/navigation";
 
 type Props = {
-  posts: Post[];
+  post: Post;
 };
 
-const PreviewBlogList = ({ posts = [] }: Props) => {
-  const [data, loading] = useLiveQuery(posts, postsQuery);
+export default function PreviewBlog({ post }: Props) {
+  const params = useParams()!;
+  const [data, loading] = useLiveQuery(post, postQuery, params);
   if (loading)
     return (
       <div role="status">
@@ -19,7 +21,6 @@ const PreviewBlogList = ({ posts = [] }: Props) => {
         </p>
       </div>
     );
-  return <BlogList posts={data} />;
+  return <Blog post={data} />;
 };
 
-export default PreviewBlogList;
