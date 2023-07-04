@@ -1,36 +1,44 @@
+import type { SanityDocument } from "next-sanity";
 import Iframe from "sanity-plugin-iframe-pane";
 import type { DefaultDocumentNodeResolver } from "sanity/desk";
 
-export const getDefaultDocumentNode: DefaultDocumentNodeResolver = (
+export const defaultDocumentNode: DefaultDocumentNodeResolver = (
   S,
   { schemaType }
 ) => {
-  if (schemaType === "post") {
-    return S.document().views([
-      S.view.form(),
-      S.view
-        .component(Iframe)
-        .options({
-          // Required: Accepts an async function OR a string
-          url: `${
-            process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000"
-          }/api/preview`,
+  switch (schemaType) {
+    case "post":
+      const baseURL = process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000";
+      return S.document().views([
+        S.view.form(),
+        S.view
+          .component(Iframe)
+          .options({
+            // Required: Accepts an async function OR a string
+            url: (doc: SanityDocument) => doc?.slug?.current
+              ? `${baseURL}/api/preview?slug=${doc.slug.current}`
+              : `${baseURL}/api/preview`,
 
-          // Optional: Set the default size
-          defaultSize: `desktop`, //default `desktop`
+            // Optional: Set the default size
+            defaultSize: `desktop`, //default `desktop`
 
-          // Optional: Add a reload button, or reload on new document revisions
-          reload: {
-            button: true, // default: `undefined`
-          },
+            // Optional: Add a reload button, or reload on new document revisions
+            reload: {
+              button: true, // default: `undefined`
+            },
 
-          // Optional: Pass attributes to the underlying `iframe` element:
-          // See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
-          attributes: {
-            allow: "fullscreen", // string, optional
-          },
-        })
-        .title("Preview"),
-    ]);
+            // Optional: Display a spinner while the iframe is loading
+            loader: true,
+
+            // Optional: Pass attributes to the underlying `iframe` element:
+            // See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+            attributes: {
+              allow: "fullscreen", // string, optional
+            },
+          })
+          .title("Preview"),
+      ]);
+    default:
+      return S.document().views([S.view.form()]);
   }
 };
