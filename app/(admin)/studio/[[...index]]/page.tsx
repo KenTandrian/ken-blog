@@ -1,9 +1,16 @@
-"use client";
-import { NextStudio } from "next-sanity/studio";
-import config from "../../../../sanity.config";
+import type {Metadata} from 'next'
+import {metadata as studioMetadata} from 'next-sanity/studio/metadata'
 
-const StudioPage = () => {
-  return <NextStudio config={config} />;
-};
+import {Studio} from './Studio'
 
-export default StudioPage;
+// Set the right `viewport`, `robots` and `referer` meta tags
+export const metadata: Metadata = {
+  ...studioMetadata,
+  icons: [
+    'https://www.sanity.io/static/images/favicons/favicon-32x32.png'
+  ]
+}
+
+export default function StudioPage() {
+  return <Studio />
+}

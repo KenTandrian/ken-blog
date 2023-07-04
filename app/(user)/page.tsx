@@ -2,7 +2,7 @@ import React from "react";
 import { draftMode } from "next/headers";
 import { groq } from "next-sanity";
 import { client } from "../../lib/sanity.client";
-import PreviewSuspense from "../../components/PreviewSuspense";
+import PreviewProvider from "../../components/PreviewProvider";
 import PreviewBlogList from "../../components/PreviewBlogList";
 import BlogList from "../../components/BlogList";
 
@@ -17,18 +17,13 @@ const query = groq`
 export const revalidate = 30; // revaliate this page every 30 seconds
 const HomePage = async () => {
   if (draftMode().isEnabled) {
+    const preview = {
+      token: process.env.SANITY_API_READ_TOKEN!
+    };
     return (
-      <PreviewSuspense
-        fallback={
-          <div role="status">
-            <p className="text-center text-lg animate-pulse text-[#F7AB0A]">
-              Loading Preview Data...
-            </p>
-          </div>
-        }
-      >
+      <PreviewProvider token={preview.token}>
         <PreviewBlogList query={query} />
-      </PreviewSuspense>
+      </PreviewProvider>
     );
   }
   const posts = await client.fetch(query);
