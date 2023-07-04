@@ -4700,7 +4700,7 @@ natural-compare-lite@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
   integrity sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==
 
-next-sanity@^4.1.7:
+next-sanity@^4.3.3:
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-4.3.3.tgz#96f8e9af06fb07eb4a487d6601e77ca10aa796a3"
   integrity sha512-537xLC4hpTgV3SGj6w4aXvBvm/nHdyZGtZ5IcZpH33p70J7UjptF4+D4FvWKZGPjF3v3SFk75AHjxWVPORL9RA==
