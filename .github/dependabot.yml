@@ -18,3 +18,12 @@ updates:
     schedule:
       interval: daily
     open-pull-requests-limit: 20
+    groups:
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+      sanity:
+        patterns:
+          - "sanity"
+          - "@sanity/*"
