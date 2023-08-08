@@ -10,19 +10,19 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@portabletext/react": "^3.0.4",
-    "@sanity/vision": "3.14.4",
+    "@sanity/vision": "3.14.5",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "13.4.13",
     "next-sanity": "5.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "3.14.4",
+    "sanity": "3.14.5",
     "sanity-plugin-iframe-pane": "^2.3.1",
     "sharp": "0.32.4",
     "styled-components": "6.0.7"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^2.0.4",
+    "@sanity/eslint-config-studio": "^3.0.0",
     "@types/node": "20.4.8",
     "@types/react": "18.2.18",
     "@types/react-dom": "^18.2.7",
