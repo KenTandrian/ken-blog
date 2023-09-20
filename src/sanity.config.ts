@@ -6,9 +6,7 @@ import { myTheme } from "./theme";
 import StudioNavbar from "./components/StudioNavbar";
 import Logo from "./components/Logo";
 import { defaultDocumentNode } from "./structure";
-
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
+import { apiVersion, dataset, projectId } from "./lib/sanity.api";
 
 export default defineConfig({
   basePath: "/studio",
@@ -18,7 +16,7 @@ export default defineConfig({
   dataset,
   plugins: [
     deskTool({ defaultDocumentNode }),
-    visionTool(),
+    visionTool({ defaultApiVersion: apiVersion }),
   ],
   schema: {
     types: schemaTypes,

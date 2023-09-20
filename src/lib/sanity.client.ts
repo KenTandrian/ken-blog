@@ -1,9 +1,6 @@
 import { createClient } from "next-sanity";
 import { cache } from "react";
-
-export const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
-export const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
-const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION;
+import { apiVersion, dataset, projectId } from "./sanity.api";
 
 export const client = createClient({
   projectId,
