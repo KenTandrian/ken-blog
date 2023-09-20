@@ -1,12 +1,13 @@
+import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
-import { visionTool } from "@sanity/vision";
-import { schemaTypes } from "./schemas";
-import { myTheme } from "./theme";
-import StudioNavbar from "./components/StudioNavbar";
+
 import Logo from "./components/Logo";
-import { defaultDocumentNode } from "./structure";
+import StudioNavbar from "./components/StudioNavbar";
 import { apiVersion, dataset, projectId } from "./lib/sanity.api";
+import { schemaTypes } from "./schemas";
+import { defaultDocumentNode } from "./structure";
+import { myTheme } from "./theme";
 
 export default defineConfig({
   basePath: "/studio",
