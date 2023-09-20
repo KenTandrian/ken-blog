@@ -1,6 +1,9 @@
-import type { SanityDocument } from "next-sanity";
-import Iframe from "sanity-plugin-iframe-pane";
+import Iframe, { defineUrlResolver } from "sanity-plugin-iframe-pane";
 import type { DefaultDocumentNodeResolver } from "sanity/desk";
+
+export const urlResolver = defineUrlResolver({
+  base: "/api/preview",
+});
 
 export const defaultDocumentNode: DefaultDocumentNodeResolver = (
   S,
@@ -8,16 +11,13 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
 ) => {
   switch (schemaType) {
     case "post":
-      const baseURL = process.env.NEXT_PUBLIC_VERCEL_URL || "http://localhost:3000";
       return S.document().views([
         S.view.form(),
         S.view
           .component(Iframe)
           .options({
             // Required: Accepts an async function OR a string
-            url: (doc: SanityDocument) => doc?.slug?.current
-              ? `${baseURL}/api/preview?slug=${doc.slug.current}`
-              : `${baseURL}/api/preview`,
+            url: urlResolver,
 
             // Optional: Set the default size
             defaultSize: `desktop`, //default `desktop`
