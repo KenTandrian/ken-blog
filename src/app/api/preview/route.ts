@@ -1,11 +1,10 @@
 import { draftMode } from "next/headers";
-import { redirect } from "next/navigation";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "edge";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   draftMode().enable();
-  redirect(`/`);
-  return NextResponse.json("Draft mode enabled.");
+  const url = new URL(request.nextUrl)
+  return NextResponse.redirect(new URL('/', url.origin))
 }
