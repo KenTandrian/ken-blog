@@ -1,6 +1,7 @@
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
+import { previewUrl } from "sanity-plugin-iframe-pane/preview-url";
 
 import Logo from "./components/Logo";
 import StudioNavbar from "./components/StudioNavbar";
@@ -17,6 +18,7 @@ export default defineConfig({
   dataset,
   plugins: [
     deskTool({ defaultDocumentNode }),
+    previewUrl({ base: "/api/preview" }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
   schema: {
