@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@portabletext/react": "^3.0.7",
+    "@portabletext/react": "^3.0.9",
     "@sanity/vision": "3.16.7",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "13.5.3",
