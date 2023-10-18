@@ -1927,7 +1927,7 @@
     "@sanity/client" "^6.4.9"
     "@types/react" "^18.0.25"
 
-"@sanity/ui@^1.0.0", "@sanity/ui@^1.7.2":
+"@sanity/ui@^1.1.0", "@sanity/ui@^1.7.2":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.8.2.tgz#70f0c55e3bdd04b662d3cd84af168d4e27adfc2c"
   integrity sha512-XWtVdIG1PWBEiNPcObRfXsX/EPhiPCHMmfdn+frPIVLTLnoQnNju3W9UQAWec+BwjXBCpPtfc36AoiQSDUkxzw==
@@ -5723,14 +5723,14 @@ sanity-diff-patch@^3.0.2:
   dependencies:
     "@sanity/diff-match-patch" "^3.0.0"
 
-sanity-plugin-iframe-pane@^2.5.7:
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.5.7.tgz#493ecae0efe837d0402724cfbf5e4faa1c104c0b"
-  integrity sha512-OmpRd9YNEAs7hMYF8b45EkTjbXq3LyeLahMfQid9stZsIreFCOxYktZc1Z2M7GYCN9OQUl/6F4iCiwGh1MbIVA==
+sanity-plugin-iframe-pane@^2.5.8:
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.5.8.tgz#7f0851610559f5ec52d22d3fbb8c69e8048acb56"
+  integrity sha512-X9l7cuGfcHbenAuAb0VJmJtFFwB7cZoo6J+dgZ0D77+dwV7v5rVD/uJbXp90WdeOlR6YQyMLRgU8TZRgrMjd5w==
   dependencies:
     "@sanity/icons" "^2.4.1"
     "@sanity/incompatible-plugin" "^1.0.0"
-    "@sanity/ui" "^1.0.0"
+    "@sanity/ui" "^1.1.0"
     framer-motion "^10.15.1"
     usehooks-ts "2.9.1"
 
