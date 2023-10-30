@@ -6,5 +6,4 @@ module.exports = {
       { hostname: "cdn.sanity.io", protocol: "https" },
     ],
   },
-  reactStrictMode: true,
 };
