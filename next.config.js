@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    domains: ["links.papareact.com", "cdn.sanity.io"],
+    remotePatterns: [
+      { hostname: "links.papareact.com", protocol: "https" },
+      { hostname: "cdn.sanity.io", protocol: "https" },
+    ],
   },
   reactStrictMode: true,
 };
