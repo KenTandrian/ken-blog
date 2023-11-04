@@ -10,13 +10,13 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@portabletext/react": "^3.0.11",
-    "@sanity/vision": "3.19.0",
+    "@sanity/vision": "3.19.1",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "14.0.1",
     "next-sanity": "5.5.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "3.19.0",
+    "sanity": "3.19.1",
     "sanity-plugin-iframe-pane": "^2.6.0",
     "sharp": "0.32.6",
     "styled-components": "6.1.0"
