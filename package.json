@@ -19,7 +19,7 @@
     "sanity": "3.19.2",
     "sanity-plugin-iframe-pane": "^2.6.0",
     "sharp": "0.32.6",
-    "styled-components": "6.1.0"
+    "styled-components": "6.1.1"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^3.0.1",
