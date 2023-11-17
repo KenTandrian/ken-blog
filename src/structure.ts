@@ -15,7 +15,8 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
             // Required: Accepts an async function OR a string
             url: {
               origin: "same-origin",
-              preview: (document) => document?.slug?.current ? `/${document.slug.current}` : new Error('Missing slug'),
+              preview: (document?: { slug?: { current?: string }}) => 
+                document?.slug?.current ? `/${document.slug.current}` : new Error("Missing slug"),
               draftMode: '/api/preview'
             },
 
