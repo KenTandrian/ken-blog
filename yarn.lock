@@ -5635,10 +5635,10 @@ sanity-diff-patch@^3.0.2:
   dependencies:
     "@sanity/diff-match-patch" "^3.0.0"
 
-sanity-plugin-iframe-pane@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.6.0.tgz#3e666674f658d86e2de2bc635ce5903222821752"
-  integrity sha512-8QZed/lqbwZCqGwzvYKQ+9c1W+MUGWeJMu9aB3J5NxLsa04ZjJNUD3h+5a7STcGYH8PP+ZevXXsNZ9nOzrH9Cg==
+sanity-plugin-iframe-pane@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.6.1.tgz#94462700c4993bef36e56c426d609ccf82eb369e"
+  integrity sha512-FuPZ0LZILlOFNyJFhRCdo53TtoSul8epVGAggt0DCQPkBQuvumQ+3Lod43CQFgUvmehYnQH3k1QpC0xl0qsUAg==
   dependencies:
     "@sanity/icons" "^2.6.0"
     "@sanity/incompatible-plugin" "^1.0.4"
