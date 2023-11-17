@@ -1,9 +1,5 @@
-import Iframe, { defineUrlResolver } from "sanity-plugin-iframe-pane";
+import Iframe from "sanity-plugin-iframe-pane";
 import type { DefaultDocumentNodeResolver } from "sanity/desk";
-
-export const urlResolver = defineUrlResolver({
-  base: "/api/preview",
-});
 
 export const defaultDocumentNode: DefaultDocumentNodeResolver = (
   S,
@@ -17,10 +13,14 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
           .component(Iframe)
           .options({
             // Required: Accepts an async function OR a string
-            url: urlResolver,
+            url: {
+              origin: "same-origin",
+              preview: (document) => document?.slug?.current ? `/${document.slug.current}` : new Error('Missing slug'),
+              draftMode: '/api/preview'
+            },
 
             // Optional: Set the default size
-            defaultSize: `desktop`, //default `desktop`
+            defaultSize: "desktop", // default: `desktop`
 
             // Optional: Add a reload button, or reload on new document revisions
             reload: {
