@@ -1874,10 +1874,10 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/preview-url-secret@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.1.0.tgz#bfdb6fb83b7a2c35b6c596e342e131e4285a3612"
-  integrity sha512-LBgoRfbwRti2nk2d1VPAWjGdWcjrYzlbQZfYBqW1o9o6w83vqrcF0vYSi1UP9DKhvWHfU4to9wKTffSzrl1AOg==
+"@sanity/preview-url-secret@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.2.0.tgz#71b683cce788697e5735729ed540dbc585e7cc32"
+  integrity sha512-w2LIje78OOzbDTF+jtFg89d9Jexs/3Za5uD5leCwc3jvnguD5b0/NB0gE+MOa3rVr8Q8cRxkij3M0qAblHfLfA==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -5697,14 +5697,14 @@ sanity-diff-patch@^3.0.2:
   dependencies:
     "@sanity/diff-match-patch" "^3.0.0"
 
-sanity-plugin-iframe-pane@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.1.0.tgz#02b11dba8a5e20c054dffbbebd61bd46779f631f"
-  integrity sha512-GdGU/QrQ3oGepBv+l53Vwavkg83OVILwhVukX14BXYdHwrMYrtmLi+9GwUpWcIJH8WtzFaeAjZBGZEwGrORm9w==
+sanity-plugin-iframe-pane@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.1.1.tgz#8d526a70f663cf910797b03a0dece6c8ed503f98"
+  integrity sha512-buFWmVPdTmFDLycuQKJYTYKTK8nH18WVWAfI1Juak3zxSQ63P61GN0Cl/WE9fx/6ZBP2q00dPnp8RTVahMHKFA==
   dependencies:
     "@sanity/icons" "^2.7.0"
     "@sanity/incompatible-plugin" "^1.0.4"
-    "@sanity/preview-url-secret" "^1.1.0"
+    "@sanity/preview-url-secret" "^1.2.0"
     "@sanity/ui" "^1.9.3"
     framer-motion "^10.16.5"
     suspend-react "0.1.3"
