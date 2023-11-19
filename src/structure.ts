@@ -13,10 +13,7 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
           .component(Iframe)
           .options({
             // Required: Accepts an async function OR a string
-            url: {
-              origin: "same-origin",
-              draftMode: '/api/preview'
-            },
+            url: "/api/preview",
 
             // Optional: Set the default size
             defaultSize: "desktop", // default: `desktop`
