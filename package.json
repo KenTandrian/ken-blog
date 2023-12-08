@@ -1,6 +1,6 @@
 {
   "name": "ken-blog",
-  "version": "0.4.11",
+  "version": "0.4.21",
   "private": true,
   "scripts": {
     "dev": "next dev",
