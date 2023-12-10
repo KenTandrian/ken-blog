@@ -1,5 +1,7 @@
+// @ts-check
+
 /** @type {import('next').NextConfig} */
-module.exports = {
+export default {
   images: {
     remotePatterns: [
       { hostname: "links.papareact.com", protocol: "https" },
