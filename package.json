@@ -18,7 +18,7 @@
     "react-dom": "18.2.0",
     "sanity": "3.36.2",
     "sanity-plugin-iframe-pane": "3.1.6",
-    "sharp": "0.33.2",
+    "sharp": "0.33.3",
     "styled-components": "6.1.8"
   },
   "devDependencies": {
