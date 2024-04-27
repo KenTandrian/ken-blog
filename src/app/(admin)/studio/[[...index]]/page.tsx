@@ -1,5 +1,5 @@
 import type {Metadata} from 'next'
-import {metadata as studioMetadata} from 'next-sanity/studio/metadata'
+import {metadata as studioMetadata} from 'next-sanity/studio'
 
 import {Studio} from './Studio'
 
