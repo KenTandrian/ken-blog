@@ -1,6 +1,6 @@
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
-import { deskTool } from "sanity/desk";
+import { structureTool } from "sanity/structure";
 
 import Logo from "./components/Logo";
 import StudioNavbar from "./components/StudioNavbar";
@@ -16,7 +16,7 @@ export default defineConfig({
   projectId,
   dataset,
   plugins: [
-    deskTool({ defaultDocumentNode }),
+    structureTool({ defaultDocumentNode }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
   schema: {
