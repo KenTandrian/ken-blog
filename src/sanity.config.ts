@@ -1,6 +1,6 @@
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
-import { presentationTool } from 'sanity/presentation';
+import { defineDocuments, presentationTool } from "sanity/presentation";
 import { structureTool } from "sanity/structure";
 
 import Logo from "@/components/Logo";
@@ -24,13 +24,25 @@ export default defineConfig({
     structureTool({ defaultDocumentNode }),
     presentationTool({
       previewUrl: {
-        origin: typeof location === "undefined" ? "http://localhost:3000" : location.origin,
+        origin:
+          typeof location === "undefined"
+            ? "http://localhost:3000"
+            : location.origin,
         previewMode: {
           enable: "/api/draft",
           disable: "/api/disable-draft",
         },
       },
-      resolve: { locations },
+      resolve: {
+        locations,
+        mainDocuments: defineDocuments([
+          { route: "/", type: "post" },
+          {
+            route: "/post/:slug",
+            filter: `_type == "post" && slug.current == $slug`,
+          },
+        ]),
+      },
     }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
