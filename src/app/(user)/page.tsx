@@ -1,25 +1,21 @@
+import { draftMode } from "next/headers";
+
 import BlogList from "@/components/BlogList";
 import PreviewBlogList from "@/components/PreviewBlogList";
-import PreviewProvider from "@/components/PreviewProvider";
-import { getCachedClient } from "@/sanity/lib/preview";
 import { postsQuery } from "@/sanity/lib/queries";
-import { draftMode } from "next/headers";
+import { loadQuery } from "@/sanity/lib/store";
 
 export const revalidate = 30; // revaliate this page every 30 seconds
 
 export default async function HomePage() {
-  const preview = draftMode().isEnabled
-    ? { token: process.env.SANITY_API_READ_TOKEN }
-    : undefined;
-  const posts = await getCachedClient(preview)<Post[]>(postsQuery);
+  const preview = draftMode().isEnabled;
+  const initial = await loadQuery<Post[]>(postsQuery, {}, {
+    perspective: preview ? "previewDrafts" : "published",
+  });
 
-  if (preview && preview.token) {
-    return (
-      <PreviewProvider token={preview.token}>
-        <PreviewBlogList posts={posts} />
-      </PreviewProvider>
-    );
-  }
-
-  return <BlogList posts={posts} />;
+  return preview ? (
+    <PreviewBlogList posts={initial.data} />
+  ) : (
+    <BlogList posts={initial.data} />
+  );
 };
