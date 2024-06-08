@@ -1,13 +1,13 @@
 import { draftMode } from "next/headers";
+
 import Banner from "@/components/Banner";
 import Header from "@/components/Header";
+import LiveVisualEditing from "@/components/LiveVisualEditing";
 import PreviewBanner from "@/components/PreviewBanner";
 import "@/styles/globals.css";
 
-type Props = { children: React.ReactNode };
-
-const RootLayout = ({ children }: Props) => {
-  const isDraftMode = draftMode().isEnabled
+function RootLayout({ children }: React.PropsWithChildren) {
+  const isDraftMode = draftMode().isEnabled;
   return (
     <html>
       <body>
@@ -16,10 +16,11 @@ const RootLayout = ({ children }: Props) => {
           <Header />
           <Banner />
           {children}
+          {isDraftMode && <LiveVisualEditing />}
         </div>
       </body>
     </html>
   );
-};
+}
 
 export default RootLayout;
