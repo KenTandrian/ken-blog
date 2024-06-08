@@ -1,7 +1,10 @@
 // @ts-check
 
-/** @type {import('next').NextConfig} */
+/** @type {import("next").NextConfig} */
 export default {
+  experimental: {
+    taint: true,
+  },
   images: {
     remotePatterns: [
       { hostname: "links.papareact.com", protocol: "https" },
