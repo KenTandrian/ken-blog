@@ -1,6 +1,6 @@
 import { groq } from "next-sanity";
 
-export const postsQuery = groq`
+export const POSTS_QUERY = groq`
     *[_type=='post'] {
         ...,
         author->,
@@ -8,7 +8,7 @@ export const postsQuery = groq`
     } | order(_createdAt desc)
 `;
 
-export const postQuery = groq`
+export const POST_QUERY = groq`
     *[_type=="post" && slug.current == $slug][0] {
         ...,
         author->,
@@ -16,7 +16,7 @@ export const postQuery = groq`
     }
 `;
 
-export const postPathsQuery = groq`
+export const POST_PATHS_QUERY = groq`
     *[_type=="post"] {
         slug
     }

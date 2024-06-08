@@ -1,6 +1,6 @@
 "use client";
 
-import { postsQuery } from "@/sanity/lib/queries";
+import { POSTS_QUERY } from "@/sanity/lib/queries";
 import { useLiveQuery } from "next-sanity/preview";
 import BlogList from "./BlogList";
 
@@ -9,7 +9,7 @@ type Props = {
 };
 
 const PreviewBlogList = ({ posts = [] }: Props) => {
-  const [data, loading] = useLiveQuery(posts, postsQuery);
+  const [data, loading] = useLiveQuery(posts, POSTS_QUERY);
   if (loading)
     return (
       <div role="status">
