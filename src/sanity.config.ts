@@ -5,7 +5,7 @@ import { structureTool } from "sanity/structure";
 import Logo from "./components/Logo";
 import StudioNavbar from "./components/StudioNavbar";
 import { apiVersion, dataset, projectId } from "./lib/sanity.api";
-import { schemaTypes } from "./schemas";
+import { schemaTypes } from "./sanity/schemas";
 import { defaultDocumentNode } from "./structure";
 import { myTheme } from "./theme";
 
