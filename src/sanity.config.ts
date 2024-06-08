@@ -6,6 +6,7 @@ import { structureTool } from "sanity/structure";
 import Logo from "@/components/Logo";
 import StudioNavbar from "@/components/StudioNavbar";
 import { apiVersion, dataset, projectId } from "@/sanity/env";
+import { locations } from "@/sanity/presentation";
 import { schema } from "@/sanity/schema";
 import { defaultDocumentNode } from "@/sanity/structure";
 import { theme } from "@/sanity/theme";
@@ -22,9 +23,13 @@ export default defineConfig({
   plugins: [
     presentationTool({
       previewUrl: {
-        origin: location.origin,
-        previewMode: { enable: "/api/preview" },
+        origin: typeof location === "undefined" ? "http://localhost:3000" : location.origin,
+        previewMode: {
+          enable: "/api/preview",
+          disable: "/api/exit-preview",
+        },
       },
+      resolve: { locations },
     }),
     structureTool({ defaultDocumentNode }),
     visionTool({ defaultApiVersion: apiVersion }),
