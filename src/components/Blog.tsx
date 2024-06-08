@@ -1,4 +1,4 @@
-import urlFor from "@/sanity/lib/image";
+import { urlFor } from "@/sanity/lib/image";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import { RichTextComponents } from "./RichTextComponents";
@@ -11,7 +11,7 @@ export default function Blog({ post }: { post: Post }) {
                     <div className="absolute top-0 w-full h-full opacity-10 blue-sm p-10">
                         <Image
                             className="object-cover object-center mx-auto"
-                            src={urlFor(post.mainImage).url()}
+                            src={urlFor(post.mainImage)}
                             alt={post.author.name}
                             fill
                         />
@@ -34,7 +34,7 @@ export default function Blog({ post }: { post: Post }) {
                             <div className="flex items-center space-x-2">
                                 <Image
                                     className="rounded-full"
-                                    src={urlFor(post.author.image).url()}
+                                    src={urlFor(post.author.image)}
                                     alt={post.author.name}
                                     height={40}
                                     width={40}

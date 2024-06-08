@@ -1,4 +1,4 @@
-import urlFor from "@/sanity/lib/image";
+import { urlFor } from "@/sanity/lib/image";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
@@ -11,7 +11,7 @@ const BlogItem = ({ post }: { post: Post }) => {
       >
         <Image
           className="object-cover object-left lg:object-center"
-          src={urlFor(post.mainImage).url()}
+          src={urlFor(post.mainImage)}
           alt={post.author.name}
           fill
         />
