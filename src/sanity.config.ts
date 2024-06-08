@@ -12,6 +12,7 @@ import { theme } from "@/sanity/theme";
 
 export default defineConfig({
   basePath: "/studio",
+  icon: Logo,
   name: "Blog_Content_Studio",
   title: "Blog Content Studio",
   projectId,
@@ -30,7 +31,6 @@ export default defineConfig({
   ],
   studio: {
     components: {
-      logo: Logo,
       navbar: StudioNavbar,
     },
   },
