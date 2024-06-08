@@ -5,7 +5,7 @@ import { structureTool } from "sanity/structure";
 import Logo from "./components/Logo";
 import StudioNavbar from "./components/StudioNavbar";
 import { apiVersion, dataset, projectId } from "./lib/sanity.api";
-import { schemaTypes } from "./sanity/schemas";
+import { schema } from "./sanity/schema";
 import { defaultDocumentNode } from "./structure";
 import { myTheme } from "./theme";
 
@@ -19,9 +19,7 @@ export default defineConfig({
     structureTool({ defaultDocumentNode }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
-  schema: {
-    types: schemaTypes,
-  },
+  schema,
   studio: {
     components: {
       logo: Logo,
