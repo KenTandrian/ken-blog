@@ -1922,6 +1922,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.6.tgz#4d1eb69583c9d5ad8d44503cd714d67cc0ae1e86"
   integrity sha512-2TjYEvOftD0v7ukx3Csdh9QIu44P2z7NDJtlC3qITJRYV36J7R6Vfd3trVhFnN77/7CZrGjqngrtohv8VqO5nw==
 
+"@sanity/core-loader@1.6.18":
+  version "1.6.18"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.6.18.tgz#32aac4c6e4be0ff42c9666502c8d75d37bb9c0a5"
+  integrity sha512-Ej7eFNqFaE9U/OHcNOmIu+BxHcH5xmMVg2LrWnhcO9vuDqiRxwxn8agHq/AYxOf1mtgPwROIuPb78NvgMSrN7A==
+
 "@sanity/diff-match-patch@^3.0.0", "@sanity/diff-match-patch@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@sanity/diff-match-patch/-/diff-match-patch-3.1.1.tgz#16514d3a550d880bae1f59cc3ffe6865f5a4b58a"
@@ -2132,6 +2137,13 @@
   integrity sha512-Gj0bnochUdyGJdcYdZMJ8up81aqp6dCy1ldE5Hx3tIktANc7LYie0KfZctexY1h+teBi50vKpk8uiVID/V2e2w==
   dependencies:
     "@sanity/uuid" "3.0.2"
+
+"@sanity/react-loader@1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.2.tgz#5bb8837b09a3e5d5f50990518cc4c69870146ce4"
+  integrity sha512-7PDDAHpCJ/289Yj63kFjRwQfXrMlM0uGznu4mFoep/uUV3luSanHx8DkyxsY8T8jaKlluB64pUeRE3TQ42+31A==
+  dependencies:
+    "@sanity/core-loader" "1.6.18"
 
 "@sanity/schema@3.45.0":
   version "3.45.0"
