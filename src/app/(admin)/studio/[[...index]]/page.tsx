@@ -1,16 +1,14 @@
-import type {Metadata} from 'next'
-import {metadata as studioMetadata} from 'next-sanity/studio'
+import type { Metadata } from "next";
+import { metadata as studioMetadata } from "next-sanity/studio";
 
-import {Studio} from './Studio'
+import { Studio } from "./Studio";
 
 // Set the right `viewport`, `robots` and `referer` meta tags
 export const metadata: Metadata = {
   ...studioMetadata,
-  icons: [
-    'https://www.sanity.io/static/images/favicons/favicon-32x32.png'
-  ]
+  icons: "/favicon.ico",
 }
 
 export default function StudioPage() {
-  return <Studio />
+  return <Studio />;
 }
