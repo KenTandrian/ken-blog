@@ -1,13 +1,16 @@
+import Link from "next/link";
+
 export default function PreviewBanner() {
   return (
     <div className="bg-gray-950 p-3 text-center text-white">
       {"Previewing drafts. "}
-      <a
+      <Link
         className="text-[#F7AB0A] underline transition hover:opacity-50"
-        href="/api/exit-preview"
+        href="/api/disable-draft"
+        prefetch={false}
       >
         Back to published
-      </a>
+      </Link>
     </div>
   );
 }

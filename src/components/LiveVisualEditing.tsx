@@ -14,7 +14,7 @@ export default function LiveVisualEditing() {
     useEffect(() => {
         // If not an Iframe or a Vercel Preview deployment, turn off Draft Mode
         if (process.env.NEXT_PUBLIC_VERCEL_ENV !== "preview" && window === parent) {
-            location.href = "/api/exit-preview"
+            location.href = "/api/disable-draft"
         }
     }, []);
 

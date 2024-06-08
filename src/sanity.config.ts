@@ -25,8 +25,8 @@ export default defineConfig({
       previewUrl: {
         origin: typeof location === "undefined" ? "http://localhost:3000" : location.origin,
         previewMode: {
-          enable: "/api/preview",
-          disable: "/api/exit-preview",
+          enable: "/api/draft",
+          disable: "/api/disable-draft",
         },
       },
       resolve: { locations },

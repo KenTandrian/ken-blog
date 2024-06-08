@@ -22,7 +22,7 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
             url: {
               origin: "same-origin",
               preview: getPreviewUrl,
-              draftMode: '/api/preview' // the route you enable draft mode, see: https://github.com/sanity-io/visual-editing/tree/main/packages/preview-url-secret#sanitypreview-url-secret
+              draftMode: '/api/draft' // the route you enable draft mode, see: https://github.com/sanity-io/visual-editing/tree/main/packages/preview-url-secret#sanitypreview-url-secret
             },
 
             // Optional: Set the default size
