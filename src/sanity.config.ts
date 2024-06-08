@@ -21,6 +21,7 @@ export default defineConfig({
   schema,
   theme,
   plugins: [
+    structureTool({ defaultDocumentNode }),
     presentationTool({
       previewUrl: {
         origin: typeof location === "undefined" ? "http://localhost:3000" : location.origin,
@@ -31,7 +32,6 @@ export default defineConfig({
       },
       resolve: { locations },
     }),
-    structureTool({ defaultDocumentNode }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
   studio: {
