@@ -6,8 +6,8 @@ import Logo from "./components/Logo";
 import StudioNavbar from "./components/StudioNavbar";
 import { apiVersion, dataset, projectId } from "./sanity/env";
 import { schema } from "./sanity/schema";
-import { defaultDocumentNode } from "./structure";
-import { myTheme } from "./theme";
+import { defaultDocumentNode } from "./sanity/structure";
+import { myTheme } from "./sanity/theme";
 
 export default defineConfig({
   basePath: "/studio",
