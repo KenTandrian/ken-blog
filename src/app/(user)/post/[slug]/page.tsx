@@ -1,11 +1,10 @@
-import React from "react";
-import { getCachedClient } from "@/lib/sanity.preview";
-import { postPathsQuery, postQuery } from "@/lib/queries";
-import { draftMode } from "next/headers";
-import PreviewProvider from "@/components/PreviewProvider";
 import Blog from "@/components/Blog";
 import PreviewBlog from "@/components/PreviewBlog";
-import { cachedClient } from "@/lib/sanity.client";
+import PreviewProvider from "@/components/PreviewProvider";
+import { cachedClient } from "@/sanity/lib/client";
+import { getCachedClient } from "@/sanity/lib/preview";
+import { postPathsQuery, postQuery } from "@/sanity/lib/queries";
+import { draftMode } from "next/headers";
 
 type Props = {
   params: { slug: string };

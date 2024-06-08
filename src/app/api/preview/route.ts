@@ -3,8 +3,8 @@ import { draftMode } from "next/headers";
 import { redirect } from "next/navigation";
 import { NextResponse, type NextRequest } from "next/server";
 
-import { client } from "@/lib/sanity.client";
-import { token } from "@/lib/sanity.token";
+import { client } from "@/sanity/lib/client";
+import { token } from "@/sanity/lib/token";
 
 const clientWithToken = client.withConfig({ token });
 

@@ -1,6 +1,6 @@
 import { createClient, type SanityClient } from "next-sanity";
 import { cache } from "react";
-import { apiVersion, dataset, projectId } from "../sanity/env";
+import { apiVersion, dataset, projectId } from "../env";
 
 export function getClient(preview?: { token?: string }): SanityClient {
   const client = createClient({

@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
+import { postsQuery } from "@/sanity/lib/queries";
 import { useLiveQuery } from "next-sanity/preview";
 import BlogList from "./BlogList";
-import { postsQuery } from "@/lib/queries";
 
 type Props = {
   posts: Post[];

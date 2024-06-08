@@ -1,10 +1,9 @@
 "use client";
 
-import React from "react";
+import { postQuery } from "@/sanity/lib/queries";
 import { useLiveQuery } from "next-sanity/preview";
-import { postQuery } from "@/lib/queries";
-import Blog from "./Blog";
 import { useParams } from "next/navigation";
+import Blog from "./Blog";
 
 type Props = {
   post: Post;
