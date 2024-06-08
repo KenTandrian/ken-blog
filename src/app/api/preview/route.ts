@@ -8,8 +8,6 @@ import { token } from "@/sanity/lib/token";
 
 const clientWithToken = client.withConfig({ token });
 
-export const runtime = "edge";
-
 export async function GET(request: NextRequest) {
   const { isValid, redirectTo = "/" } = await validatePreviewUrl(
     clientWithToken,
