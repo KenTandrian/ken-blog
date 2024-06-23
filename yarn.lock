@@ -2191,10 +2191,10 @@
     "@sanity/client" "^6.20.0"
     "@types/react" "^18.0.25"
 
-"@sanity/ui@^2.0.10", "@sanity/ui@^2.1.14", "@sanity/ui@^2.3.1":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.3.6.tgz#823f8a9b7b55a4595e8d85cfac862cbe09234ca1"
-  integrity sha512-/Y7uO3v5+tY4kPesWV0Udj42EF93LQsh0XvY/zqklBfRuwZ32HkuhH1heyCc06GwunSqEoUyGa1oacsuFDTz3g==
+"@sanity/ui@^2.0.10", "@sanity/ui@^2.1.14", "@sanity/ui@^2.3.1", "@sanity/ui@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.4.0.tgz#cac61bce899e9921bc79ac374528485cfc9deb95"
+  integrity sha512-K7bxEqFAAHzvM+fuMhaIgF9MpvClbvW0V61qwEI4vE20XKqfmhvjdlEAMEU/stMNBFEdX7tVdXb0D4xtVuciBg==
   dependencies:
     "@floating-ui/react-dom" "^2.1.0"
     "@sanity/color" "^3.0.6"
@@ -2233,10 +2233,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.46.1":
-  version "3.46.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.46.1.tgz#39efbbe6f8372c2dd32236c0d36a2f0d78bf7350"
-  integrity sha512-BJGRB0/7q4pc9mct/iQ6qAGrrqcwJNPtiXck0w1MT/F4tJ9bnSnQtuO8hIhHYsHctgGOd7JhB3/aH3wrip30Mw==
+"@sanity/vision@3.47.1":
+  version "3.47.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.47.1.tgz#84c9c36386910d4012b1b4575581da2124409285"
+  integrity sha512-Y3TqCvW/5MAkemWfV2ZbEMUCd5F4Kv0eo+gr8XNX3iCVmhUWDa8tuHw1W13ZBDk4n4zheBYjjxJfFoTwCX6jgQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -2251,7 +2251,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.0.0"
-    "@sanity/ui" "^2.3.1"
+    "@sanity/ui" "^2.4.0"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
