@@ -15,7 +15,7 @@
     "@sanity/vision": "3.47.1",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "14.2.4",
-    "next-sanity": "9.3.10",
+    "next-sanity": "9.4.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "sanity": "3.46.1",
