@@ -18,7 +18,7 @@
     "next-sanity": "9.4.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "sanity": "3.46.1",
+    "sanity": "3.47.1",
     "sanity-plugin-iframe-pane": "3.1.6",
     "sharp": "0.33.4",
     "styled-components": "6.1.11"
