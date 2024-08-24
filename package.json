@@ -1,6 +1,6 @@
 {
   "name": "ken-blog",
-  "version": "0.6.26",
+  "version": "0.6.40",
   "packageManager": "yarn@1.22.22",
   "private": true,
   "scripts": {
