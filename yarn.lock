@@ -4992,10 +4992,15 @@ groq-js@^1.12.0:
   dependencies:
     debug "^4.3.4"
 
-groq@3.53.0, groq@^3.37.1:
+groq@3.53.0:
   version "3.53.0"
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.53.0.tgz#397507f2659b4361f8b84f371dce33df0c6f8a7b"
   integrity sha512-0kVDwMWK4liM8xPQx9o31IwXr7jiLnMNnSNVbzeP4Zfk/lTxsYahe+7XojSRfewxEVWKDEfH5yQIJxZPsIq2UQ==
+
+groq@^3.54.0:
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.55.0.tgz#aea2dc6f89c1299eda6376c1794832a9f260db8a"
+  integrity sha512-oDMnjsIfEMtGfPJOMFx+6qS8fdX8YIRYbslF/VE6H77kKGOGOlrMK81diphkoiV0/xg0mS++gf9fCGbdasZIRQ==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
@@ -6122,16 +6127,16 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@9.4.5:
-  version "9.4.5"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.5.tgz#82bcbc7b438f8815412be6d2d6b4176e0d109063"
-  integrity sha512-fth+9I/Gmmy0wYLHSdY/4Be+v/rl6R9X5st05MaPvVQhqzJAP445nN7WsmhE2HVBHjPDZEHeDbf59jee95PgrQ==
+next-sanity@9.4.7:
+  version "9.4.7"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.7.tgz#902fbeecc85741e97a851ec3f7f5565376f19b62"
+  integrity sha512-4p/crgc9bLD9kNJ/2OdC9ow3nbCI3okAwx6otN3aNAUd7Z7AGOINJQ9tUfrbLNEfHNNgSTQZnckjrh2B+kdawA==
   dependencies:
     "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.21.2"
     "@sanity/preview-kit" "5.1.0"
     "@sanity/visual-editing" "2.1.8"
-    groq "^3.37.1"
+    groq "^3.54.0"
     history "^5.3.0"
 
 next@14.2.6:
