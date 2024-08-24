@@ -2283,10 +2283,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.53.0":
-  version "3.53.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.53.0.tgz#26b54a3897dbb386a7a213bfc00fa1461fc6e38c"
-  integrity sha512-FUbcQlZGnCK4pRu0jHP+TqIU4SHD0KwLKIR96v/czH3mrfLYn0i4nk9wnkqAuV1Uj/oFHN0/lZf8ubPbIiyfyQ==
+"@sanity/vision@3.55.0":
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.55.0.tgz#8a9b5774d7d6882a001aafc4dd03ae8c4cf9c64b"
+  integrity sha512-SoqiwP+dvAZW8w+rdsCbk/e1Mf+6YVmJlAGjqn62rIXykD/lRF1O7uVehMNxbUjjMz1JTjlIkppOpDXrmjv8oQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
