@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { QueryParams } from "next-sanity";
 import { draftMode } from "next/headers";
 
@@ -15,6 +16,20 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug.current,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: QueryParams;
+}): Promise<Metadata> {
+  const { data } = await loadQuery<Post>(POST_QUERY, params, {
+    perspective: "published",
+  });
+  return {
+    title: data.title,
+    description: data.description,
+  };
 }
 
 const Post = async ({ params }: { params: QueryParams }) => {
