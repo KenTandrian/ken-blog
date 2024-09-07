@@ -2047,7 +2047,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.11.8.tgz#90a38b7d23b5c9f728a6e7ebdac80c3f76c64c35"
   integrity sha512-C4ViXtk6eyiNTQ5OmxpfmcK6Jw+LLTi9zg9XBUD15DzC4xTHaGW9SVfUa43YtPGs3WC3M0t0K59r0GDjh52HIg==
 
-"@sanity/icons@^3.3.1":
+"@sanity/icons@^3.3.1", "@sanity/icons@^3.4.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.4.0.tgz#bf838d1a67382d75231be55b4e89346ffdfb5fe6"
   integrity sha512-X8BMM68w3y5cuCLpPwV7jGhVNGgAL/FA3UI6JaRCsyVOahA6aBOeKdjFs5MHtKi8cmrKwq1a98h/HbrK56kszA==
@@ -2283,10 +2283,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.55.0":
-  version "3.55.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.55.0.tgz#8a9b5774d7d6882a001aafc4dd03ae8c4cf9c64b"
-  integrity sha512-SoqiwP+dvAZW8w+rdsCbk/e1Mf+6YVmJlAGjqn62rIXykD/lRF1O7uVehMNxbUjjMz1JTjlIkppOpDXrmjv8oQ==
+"@sanity/vision@3.57.1":
+  version "3.57.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.57.1.tgz#44c6d639e5a99759793ae9a1bdff6bcb1d8b60ec"
+  integrity sha512-6mMwVOH8hxpyxVWEU3wfuk4FHXJd2PL2D7mldhT2Qk29U3/0dS9dBUN4nzTKs7y+fdCqXmWmSXeIiGZydLxsXA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -2300,7 +2300,7 @@
     "@rexxars/react-json-inspector" "^8.0.1"
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
-    "@sanity/icons" "^3.3.1"
+    "@sanity/icons" "^3.4.0"
     "@sanity/ui" "^2.8.8"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
