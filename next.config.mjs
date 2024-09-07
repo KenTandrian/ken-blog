@@ -1,7 +1,7 @@
 // @ts-check
 
 /** @type {import("next").NextConfig} */
-export default {
+const nextConfig = {
   experimental: {
     taint: true,
   },
@@ -12,3 +12,5 @@ export default {
     ],
   },
 };
+
+export default nextConfig;
