@@ -1912,26 +1912,26 @@
     nanoid "^3.1.12"
     rxjs "^7.0.0"
 
-"@sanity/block-tools@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/block-tools/-/block-tools-3.59.0.tgz#c251589f2f69f8fdab8474d5f523fe52b71b719c"
-  integrity sha512-mhuts+7rNgC8iovYwnAg5F+k/nAjh5mV96b/dZdrpQrlHc8EZEF6ULNuoUyYc+2y277OnWVNDNga4gtPuSk7Bw==
+"@sanity/block-tools@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/block-tools/-/block-tools-3.59.1.tgz#63000196ee77069596b6ca09fc1e9294f084de5a"
+  integrity sha512-9j2pCS6BR9DYbo562dfdU5oz83/9gVQhsL3yZxdgT4c+h915E3CHp7365TyZP7aMROXv5Rgld1CZcsGpW3yYgw==
   dependencies:
-    "@sanity/types" "3.59.0"
+    "@sanity/types" "3.59.1"
     "@types/react" "^18.3.5"
     get-random-values-esm "1.0.2"
     lodash "^4.17.21"
 
-"@sanity/cli@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.59.0.tgz#990711d8a297b1a8124a0923c24a0ab9b9316b29"
-  integrity sha512-qdAfbK5bSo41itvHpGijAy2t+ZSZo+dT7VDCaRdvbxKN1jkqnV/CRkE0vPMV5dKlx5vMP2r1rS5EItwSlXIcmw==
+"@sanity/cli@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-3.59.1.tgz#1ec1fa62e083e546c4c3fbe9ac725819e6bcd983"
+  integrity sha512-CNJDzb+5YOqdltLCn/rXhKeDecFIpj7U5X8/ZhGazMSaxnXAR3QQIiRuzpdLHrjfhjk+DoLWMshPaNfuCyDXbw==
   dependencies:
     "@babel/traverse" "^7.23.5"
     "@sanity/client" "^6.22.0"
-    "@sanity/codegen" "3.59.0"
+    "@sanity/codegen" "3.59.1"
     "@sanity/telemetry" "^0.7.7"
-    "@sanity/util" "3.59.0"
+    "@sanity/util" "3.59.1"
     chalk "^4.1.2"
     debug "^4.3.4"
     decompress "^4.2.0"
@@ -1954,10 +1954,10 @@
     get-it "^8.6.5"
     rxjs "^7.0.0"
 
-"@sanity/codegen@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.59.0.tgz#67fc5f679cd8011bde127f8b090a4043f47922fe"
-  integrity sha512-Aoga6NDOK++KF0lu32gslkf5/aDOtUhha1G5abgJjDLlUGoXJ801cFtmn9q4RlXrvrvO3SeE//SEIqqrO6b+MA==
+"@sanity/codegen@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-3.59.1.tgz#11cdb6bfbdc72447265fd8c50611ca0ec8dac887"
+  integrity sha512-Co0Y4JxrLr3Gtm2U1zFIknKDmyD1yiblxRTbZIHVmWTbzvK10jx/5lGVkqANeWru5LSBYohBysNcyYAKhJy5FA==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/generator" "^7.23.6"
@@ -1969,7 +1969,7 @@
     "@babel/types" "^7.23.9"
     debug "^4.3.4"
     globby "^10.0.0"
-    groq "3.59.0"
+    groq "3.59.1"
     groq-js "^1.13.0"
     json5 "^2.2.3"
     tsconfig-paths "^4.2.0"
@@ -1990,10 +1990,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/diff-match-patch/-/diff-match-patch-3.1.1.tgz#16514d3a550d880bae1f59cc3ffe6865f5a4b58a"
   integrity sha512-dSZqGeYjHKGIkqAzGqLcG92LZyJGX+nYbs/FWawhBbTBDWi21kvQ0hsL3DJThuFVWtZMWTQijN3z6Cnd44Pf2g==
 
-"@sanity/diff@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/diff/-/diff-3.59.0.tgz#ed936fe8c53f2ed5b96cce95dede2b1a393f4dd8"
-  integrity sha512-gIWOSVTcK5+Yvk7VhLoGz5adow9qGQ21SNtsnk7Pm6UJj3dvQtzaCs2BN5mtx0NvlZYPcLa1CuT4kbZZpuxf3g==
+"@sanity/diff@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/diff/-/diff-3.59.1.tgz#7f798995e1561f2f9822f8c432e9ed929e9148e7"
+  integrity sha512-qk2cPc1PuwUPzQKWcBEEdn2W8QYJGXcZ4zwA1KnVUF3s7WG3WnoPNy2v5k76fFtmFRg4NdsAjtTGJnl89S2XnQ==
   dependencies:
     "@sanity/diff-match-patch" "^3.1.1"
 
@@ -2116,15 +2116,15 @@
   resolved "https://registry.yarnpkg.com/@sanity/logos/-/logos-2.1.13.tgz#aab9da2c2a4ec6d72debf481ff477520ed9cc2cf"
   integrity sha512-PKAbPbM4zn+6wHYjCVwuhmlZnFqyZ9lT/O7OT3BVd2SGAqXoZTimfBOHrVPifytuazdoQ1T2M5eYJTtW/VXLyA==
 
-"@sanity/migrate@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/migrate/-/migrate-3.59.0.tgz#1e2b1d4b4dd741e5e4e5203f50cc79889fc3a0a8"
-  integrity sha512-lmx0EEeHuhq9LjVwZaMyRS5HGyEwikUECfu8+M3enpwYCF60qHg9y59Rw4MwZIHnPa1z3SOQ9Afy6DaStEy8AQ==
+"@sanity/migrate@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/migrate/-/migrate-3.59.1.tgz#496a786ab6b10ed759ddae7fc2880b815e04bfeb"
+  integrity sha512-BZxVV7MNPK0BzccBa2wktIwoyUkyYRsWCr3T6wIAIY6GWRxfu6O1ODHkd+nEsAPxjFZOCnbIwsDlDziu8g5HCw==
   dependencies:
     "@sanity/client" "^6.22.0"
     "@sanity/mutate" "^0.10.0"
-    "@sanity/types" "3.59.0"
-    "@sanity/util" "3.59.0"
+    "@sanity/types" "3.59.1"
+    "@sanity/util" "3.59.1"
     arrify "^2.0.1"
     debug "^4.3.4"
     fast-fifo "^1.3.2"
@@ -2153,13 +2153,13 @@
     debug "^4.3.4"
     lodash "^4.17.21"
 
-"@sanity/mutator@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/mutator/-/mutator-3.59.0.tgz#cb396da4b5ffcb62366d2dbe359dfba7bc516067"
-  integrity sha512-Sr0yEwEW3b59wgAiG5+eTNU8fJR/ZXD0EtACAJy4detS1FAWH9hP7R9RU74m+wdEiEfOJV4GKAiI/lKyqdAeyA==
+"@sanity/mutator@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/mutator/-/mutator-3.59.1.tgz#93ad9692ceb81175991bbd4e78e34ffc37a2bad7"
+  integrity sha512-XiaE1385zMiSL6I6QaTRczJJiSj33l3p8BEoPeaBYGGwWfjFrWTmxSbM+APE9T5Nu7sEd/PhuKrjwmtjQXSNHg==
   dependencies:
     "@sanity/diff-match-patch" "^3.1.1"
-    "@sanity/types" "3.59.0"
+    "@sanity/types" "3.59.1"
     "@sanity/uuid" "^3.0.1"
     debug "^4.3.4"
     lodash "^4.17.21"
@@ -2211,13 +2211,13 @@
   dependencies:
     "@sanity/core-loader" "1.6.23"
 
-"@sanity/schema@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/schema/-/schema-3.59.0.tgz#f9871fec0ed48febab8b20b117494022885d68d5"
-  integrity sha512-61x5CuV7qBwc2NyhBGGJPoq8h+26LO99SxtGrdCYAft+FEmazg+mNrukc7pJEyJE9C3W4hrbRW9JJWyVWKT8cA==
+"@sanity/schema@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/schema/-/schema-3.59.1.tgz#1a1ffa2da24f15d0d4b30bb92a443a1cc3866630"
+  integrity sha512-UbV7ZWRE+IJZlUDxHmrpKmKffy/E76GU8aAbnIP0LjCQg/vq90Hh2dpXsMlO+WChPrRmqspYTqCZq34VzKKlcQ==
   dependencies:
     "@sanity/generate-help-url" "^3.0.0"
-    "@sanity/types" "3.59.0"
+    "@sanity/types" "3.59.1"
     arrify "^1.0.1"
     groq-js "^1.13.0"
     humanize-list "^1.0.1"
@@ -2242,10 +2242,10 @@
     "@sanity/client" "^6.15.11"
     "@types/react" "^18.0.25"
 
-"@sanity/types@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.59.0.tgz#1104a8b6b79e1a866ac9a10324b888f055dbbf08"
-  integrity sha512-XlvkuFc8WIUhI36vP5pUd1OrS1uqHK/F5bUUMRByU+Q3NXPgutYnQ/GpTRf+c8BfffNcF+G8irOXwF5p1XhxWg==
+"@sanity/types@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.59.1.tgz#e049f6075a3f4f98c8fdfdf282f8e2d95009e5d8"
+  integrity sha512-LuIwrcFFZIeld4p/cxayeRxV+UyNU+JLKvmYZad4Y9c5Uc687xObauWhEhYcU5ERToQEyEYvGoXZdwHb3mwZCg==
   dependencies:
     "@sanity/client" "^6.22.0"
     "@types/react" "^18.3.5"
@@ -2274,13 +2274,13 @@
     moment "^2.29.4"
     rxjs "^7.8.1"
 
-"@sanity/util@3.59.0":
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.59.0.tgz#894917303c54ae9612910b0ef96056778ffaab14"
-  integrity sha512-g/fzxh+E4HoPhkfHWsnFH9jl+YP/jbXxy77IN6A6+Q7BHYEHfvejfX0mq+R4xvi2bKbNmd/UBLp7qPYTHlJV/A==
+"@sanity/util@3.59.1":
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.59.1.tgz#a836aa3c389ed34aa84e8b2aa7643ba458645406"
+  integrity sha512-guLCoRn+XW3D/jqE0Plh60JNcD9ehcOTWUdih7GBBCRAwx9FnW9qcrsC6JZzS5mcaoEZDSAsercnm3qFaP0Dgg==
   dependencies:
     "@sanity/client" "^6.22.0"
-    "@sanity/types" "3.59.0"
+    "@sanity/types" "3.59.1"
     get-random-values-esm "1.0.2"
     moment "^2.30.1"
     rxjs "^7.8.1"
@@ -5049,10 +5049,10 @@ groq-js@^1.13.0:
   dependencies:
     debug "^4.3.4"
 
-groq@3.59.0, groq@^3.57.4:
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.59.0.tgz#0cfb271a562d04e4d93bcf7918e28ec073ea9242"
-  integrity sha512-gbBadd+JALUNORwnXAebFIj52DEg+tiPwAMC6D+7egGQxiDpTOvnsm4IOBOfH2ySTvaXreKL4RIuKNebe+ZxsA==
+groq@3.59.1, groq@^3.57.4:
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.59.1.tgz#a3ad9221a1e5aaf021b6611bf6360cc6f89d2076"
+  integrity sha512-KOXGUrd4+MO8cv0MKWGBzGHfWVg25/sDXz6d9jANwgbFGwHxMYPlqZoZOKBhnBuDSgy1YlpXeUt4iR4UCpvTZQ==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
@@ -7290,10 +7290,10 @@ sanity-plugin-iframe-pane@3.1.6:
     suspend-react "0.1.3"
     usehooks-ts "3.0.1"
 
-sanity@3.59.0:
-  version "3.59.0"
-  resolved "https://registry.yarnpkg.com/sanity/-/sanity-3.59.0.tgz#fc98e0b834959a11ad0f071b2236e63b9ea15a99"
-  integrity sha512-+21VIKsZjuIdNOtKqsc7w7cDcssEu4HsMNnTKw7Uu8YlYMG6ks1+tnHWQqLDvzQ5u/amo612YD1DYasOX+JrKA==
+sanity@3.59.1:
+  version "3.59.1"
+  resolved "https://registry.yarnpkg.com/sanity/-/sanity-3.59.1.tgz#97655320a35cb1b01c178725e4f67424a76f6800"
+  integrity sha512-6vX2RYqD0lxZkRlHYkdytya6PufP42N8cTwnyf604FHOFRJUL1oTcvXEShyj4CKRj7vgOt3yc8xxXN8uWSKTLA==
   dependencies:
     "@dnd-kit/core" "^6.0.5"
     "@dnd-kit/modifiers" "^6.0.0"
@@ -7305,11 +7305,11 @@ sanity@3.59.0:
     "@rexxars/react-json-inspector" "^8.0.1"
     "@sanity/asset-utils" "^1.2.5"
     "@sanity/bifur-client" "^0.4.1"
-    "@sanity/block-tools" "3.59.0"
-    "@sanity/cli" "3.59.0"
+    "@sanity/block-tools" "3.59.1"
+    "@sanity/cli" "3.59.1"
     "@sanity/client" "^6.22.0"
     "@sanity/color" "^3.0.0"
-    "@sanity/diff" "3.59.0"
+    "@sanity/diff" "3.59.1"
     "@sanity/diff-match-patch" "^3.1.1"
     "@sanity/eventsource" "^5.0.0"
     "@sanity/export" "^3.41.0"
@@ -7318,14 +7318,14 @@ sanity@3.59.0:
     "@sanity/import" "^3.37.3"
     "@sanity/insert-menu" "1.0.9"
     "@sanity/logos" "^2.1.4"
-    "@sanity/migrate" "3.59.0"
-    "@sanity/mutator" "3.59.0"
+    "@sanity/migrate" "3.59.1"
+    "@sanity/mutator" "3.59.1"
     "@sanity/presentation" "1.16.5"
-    "@sanity/schema" "3.59.0"
+    "@sanity/schema" "3.59.1"
     "@sanity/telemetry" "^0.7.7"
-    "@sanity/types" "3.59.0"
+    "@sanity/types" "3.59.1"
     "@sanity/ui" "^2.8.9"
-    "@sanity/util" "3.59.0"
+    "@sanity/util" "3.59.1"
     "@sanity/uuid" "^3.0.1"
     "@sentry/react" "^8.7.0"
     "@tanstack/react-table" "^8.16.0"
