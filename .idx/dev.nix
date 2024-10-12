@@ -24,6 +24,6 @@
       onStart = {
         install-deps = "yarn install";
       };
-    }
+    };
   };
 }
