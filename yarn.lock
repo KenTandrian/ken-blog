@@ -1808,10 +1808,10 @@
     silver-fleece "1.1.0"
     validate-npm-package-name "^3.0.0"
 
-"@sanity/client@^6.15.11", "@sanity/client@^6.15.20", "@sanity/client@^6.21.1", "@sanity/client@^6.21.3", "@sanity/client@^6.22.1":
-  version "6.22.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.22.1.tgz#ce456b6cae0dba84af0233be0c07d7f75c55edb1"
-  integrity sha512-2F/byHTbA91iS2YuJA/LmuJbmh4prqMYqhMSQ2PGFBPU2z/trBOByuuYrHAQfjmETu95n1N24t5A8XjqzjQZTQ==
+"@sanity/client@^6.15.11", "@sanity/client@^6.15.20", "@sanity/client@^6.21.1", "@sanity/client@^6.22.1", "@sanity/client@^6.22.2":
+  version "6.22.2"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.22.2.tgz#b07a410d5050474a85ca70ed1ba10b0d1f3e440d"
+  integrity sha512-GrLmwREcw4Us6kBaqoXyLVVl7xAELf/4Qzvv0nGxIIqCkDWQof6nL55ar6m1W9hF+eHKyRTkktWSkZ/+RklCuw==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.5"
@@ -2042,10 +2042,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.5.7.tgz#6da02bec370f1dad9df0d8d2b63f658e5b9fbed2"
   integrity sha512-hOyt66yLD6RHcZfzFlqOdeU779OLXqWD31qQSeouwWLit0IhQhLKI7OMlnFKC238c/cG8GsWHI/sHbnGiaR5DQ==
 
-"@sanity/preview-kit@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.1.tgz#6d9dee6e7c872fd5703a2a829f073aafc983bf52"
-  integrity sha512-q5VdFlSzCpJT9lUCIAnjQ3/npBqebqn0vZvk2nbxQ4r97NcdkvEQ9/LmH194RNwBrtnDOVSv9nYfvn3eZCD7oQ==
+"@sanity/preview-kit@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.1.5.tgz#9bcf5e0211f4948422fdb74e46346ca7b143f2c9"
+  integrity sha512-8nhF7cn8Kaw2Mc1EIevJaTQVQuw6e5anzp2sZob34a1VP75FPtHjPcpFPUmESoH6M5pGJrPHB+GsAZzdDedc8w==
   dependencies:
     "@sanity/preview-kit-compat" "1.5.7"
     mendoza "3.0.7"
@@ -4913,10 +4913,15 @@ groq-js@^1.13.0:
   dependencies:
     debug "^4.3.4"
 
-groq@3.60.0, groq@^3.57.4:
+groq@3.60.0:
   version "3.60.0"
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.60.0.tgz#44073493d944c34d19b6a0c18c89b31adc44b85a"
   integrity sha512-VF/GeMFUKinl825Q8gayj8SqKToYunqngovlbJ1XbGbD+QVyEmqy0EoWTg6Gu53MbJohxrzrK8h9EDc7oGfkOg==
+
+groq@^3.61.0:
+  version "3.61.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.61.0.tgz#5623d9a8ff4c8640596ac8ef75d8e8af7be03e40"
+  integrity sha512-WwtX7L8gaQ9WtMCR1168fIPF4dRKONg8zmWCyENgf5vALEre/Xez09eWA+U3jy5qa0BGFQNNpEb2R+CSOkpXcw==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
@@ -6033,16 +6038,16 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.5.0.tgz#929e586ad1a25a5992e1c4b18c4fada6c2a6cba0"
-  integrity sha512-W1Uk3KxbaTdikO0xSZwPnYv7myy0FyozHaOd0fJyI1/N4L8ch+/mPYkWTjdKhPxfV3d6gfVgoMlrkaQui2Zrfw==
+next-sanity@9.5.5:
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.5.5.tgz#1e7fa716058a6118693e6eaa7da863f2f97cf2a1"
+  integrity sha512-IEXrnQshHXpsKHA9CgRgu8KyhOUYRKJGxMqIepr/P/gy/mdJpkY3w9NLN3ef6zaOteuHIhQT9irpGrBedTaXtQ==
   dependencies:
     "@portabletext/react" "^3.1.0"
-    "@sanity/client" "^6.21.3"
-    "@sanity/preview-kit" "5.1.1"
+    "@sanity/client" "^6.22.2"
+    "@sanity/preview-kit" "5.1.5"
     "@sanity/visual-editing" "2.1.10"
-    groq "^3.57.4"
+    groq "^3.61.0"
     history "^5.3.0"
 
 next@14.2.15:
