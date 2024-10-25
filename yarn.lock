@@ -1843,10 +1843,21 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.6.tgz#4d1eb69583c9d5ad8d44503cd714d67cc0ae1e86"
   integrity sha512-2TjYEvOftD0v7ukx3Csdh9QIu44P2z7NDJtlC3qITJRYV36J7R6Vfd3trVhFnN77/7CZrGjqngrtohv8VqO5nw==
 
-"@sanity/core-loader@1.6.23":
-  version "1.6.23"
-  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.6.23.tgz#0c7d9783de61193f089ed3a45537caf7a81ccffa"
-  integrity sha512-DrNadkbr2KlsZbUNir4cCkEHe1kICpDIOpY+W4nQJNVqb/WCVFQuaVrjulESSSFG7DRKT7sdPJOax4PC/MgIRg==
+"@sanity/comlink@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-1.1.1.tgz#818f9b116cb900dd344ee5dda6fae25521e0b3e2"
+  integrity sha512-hmjL8X9/muInbO4Fko6rn9WOZhZWMPKz5n3FHttb/KurKaHbkhcon/jIkZ8DowxW75wkUDp8m/nkBZznJ58HIA==
+  dependencies:
+    rxjs "^7.8.1"
+    uuid "^10.0.0"
+    xstate "^5.18.2"
+
+"@sanity/core-loader@1.7.5":
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.5.tgz#060bf64ca3726aa551187947251987a339d6c071"
+  integrity sha512-xHH85EqWb30OnNd0vsTmky/Y+GT1ikVNba/gZrhNHAxXJImOCQvqO89WtV3DPyvIBCpvsoLQyM0DfSxSf+7CVw==
+  dependencies:
+    "@sanity/comlink" "1.1.1"
 
 "@sanity/diff-match-patch@^3.0.0", "@sanity/diff-match-patch@^3.1.1":
   version "3.1.1"
@@ -2057,12 +2068,12 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.10.7":
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.7.tgz#551daea7118bcef01105cf0c9178c56ea23b12dc"
-  integrity sha512-YrVIuOHtVnQHW3Xzf9phxvy+HQD3v3VAw2me/Bkhi4csDpemTl7QZS8LlQw7bmXWKFLw1xCwrMO2g4YRk89eRw==
+"@sanity/react-loader@1.10.13":
+  version "1.10.13"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.13.tgz#f082d714db717680f083b5ea26c109c374460257"
+  integrity sha512-0zx/qt2TajRDJG/R+hS5ANPx6rdXLq+j38M98T6sJvbrV5YacyW5IL+ZNOf+K2XjFHrlfORbB89qAK0ChjV3iA==
   dependencies:
-    "@sanity/core-loader" "1.6.23"
+    "@sanity/core-loader" "1.7.5"
 
 "@sanity/schema@3.61.0":
   version "3.61.0"
@@ -8285,6 +8296,11 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 uuid@^8.0.0:
   version "8.3.2"
