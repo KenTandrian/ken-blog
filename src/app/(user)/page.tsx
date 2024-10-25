@@ -13,14 +13,16 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const preview = draftMode().isEnabled;
-  const initial = await loadQuery<Post[]>(POSTS_QUERY, {}, {
-    perspective: preview ? "previewDrafts" : "published",
-  });
+  const { isEnabled: preview } = await draftMode();
+  const initial = await loadQuery<Post[]>(
+    POSTS_QUERY,
+    {},
+    { perspective: preview ? "previewDrafts" : "published" }
+  );
 
   return preview ? (
     <PreviewBlogList posts={initial.data} />
   ) : (
     <BlogList posts={initial.data} />
   );
-};
+}

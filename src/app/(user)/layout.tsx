@@ -6,8 +6,8 @@ import LiveVisualEditing from "@/components/LiveVisualEditing";
 import PreviewBanner from "@/components/PreviewBanner";
 import "@/styles/globals.css";
 
-function RootLayout({ children }: React.PropsWithChildren) {
-  const isDraftMode = draftMode().isEnabled;
+async function RootLayout({ children }: React.PropsWithChildren) {
+  const { isEnabled: isDraftMode } = await draftMode();
   return (
     <html>
       <body>

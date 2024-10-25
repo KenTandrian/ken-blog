@@ -21,9 +21,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: QueryParams;
+  params: Promise<QueryParams>;
 }): Promise<Metadata> {
-  const { data } = await loadQuery<Post>(POST_QUERY, params, {
+  const { data } = await loadQuery<Post>(POST_QUERY, await params, {
     perspective: "published",
   });
   return {
@@ -32,13 +32,13 @@ export async function generateMetadata({
   };
 }
 
-const Post = async ({ params }: { params: QueryParams }) => {
-  const preview = draftMode().isEnabled ? { token } : undefined;
-  const initial = await loadQuery<Post>(POST_QUERY, params, {
-    perspective: (preview && preview.token) ? "previewDrafts" : "published",
+const Post = async ({ params }: { params: Promise<QueryParams> }) => {
+  const preview = (await draftMode()).isEnabled ? { token } : undefined;
+  const initial = await loadQuery<Post>(POST_QUERY, await params, {
+    perspective: preview && preview.token ? "previewDrafts" : "published",
   });
 
-  return (preview?.token) ? (
+  return preview?.token ? (
     <PreviewBlog post={initial.data} />
   ) : (
     <Blog post={initial.data} />
