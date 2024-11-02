@@ -1876,15 +1876,6 @@
     uuid "^10.0.0"
     xstate "^5.18.2"
 
-"@sanity/comlink@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-1.1.0.tgz#3c6445c00082168bc872780e8fe4152772ae7a5a"
-  integrity sha512-gPls+ARS+ZfEy7E1dgtEipr73TasSP+yAGZLcuxoV2VTg5sJ5LCq/SA53feiDRBd4O5/htYhObNnSM5IaVNhrA==
-  dependencies:
-    rxjs "^7.8.1"
-    uuid "^10.0.0"
-    xstate "^5.18.2"
-
 "@sanity/comlink@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-1.1.1.tgz#818f9b116cb900dd344ee5dda6fae25521e0b3e2"
@@ -2258,15 +2249,16 @@
     lodash "^4.17.21"
     quick-lru "^5.1.1"
 
-"@sanity/visual-editing@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.4.0.tgz#89fa53ab88bfb4893716bf07875122c5df29ebde"
-  integrity sha512-UtM5n6NrwEJpj2UaUFoD+aDVp78rspg2MaRM/P1DkPTACGLbJTMedR+aN5U6gv+7JSXhNSU8P/wEkh8sC2b3Vg==
+"@sanity/visual-editing@2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.4.2.tgz#59c315200c0384db3e01eec13797ad44509c4911"
+  integrity sha512-HyvDmc33U27jMm/b7AUxShtdbJaXtE2FzSh3DAC4bbWq59iGoSbHTHRWq7xIZpWVH76xgkLh+RgVsyr8lI/+8g==
   dependencies:
-    "@sanity/comlink" "1.1.0"
+    "@sanity/comlink" "1.1.1"
     "@sanity/mutate" "0.10.1-canary.5"
     "@sanity/preview-url-secret" "2.0.0"
     "@vercel/stega" "0.1.2"
+    get-random-values-esm "^1.0.2"
     rxjs "^7.8.1"
     scroll-into-view-if-needed "^3.1.0"
     use-effect-event "^1.0.2"
@@ -4788,7 +4780,7 @@ get-it@^8.4.21, get-it@^8.6.2, get-it@^8.6.5:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
-get-random-values-esm@1.0.2:
+get-random-values-esm@1.0.2, get-random-values-esm@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-random-values-esm/-/get-random-values-esm-1.0.2.tgz#7e1358ef8c5e92b6118928899d0b364d61d02e5f"
   integrity sha512-HMSDTgj1HPFAuZG0FqxzHbYt5JeEGDUeT9r1RLXhS6RZQS8rLRjokgjZ0Pd28CN0lhXlRwfH6eviZqZEJ2kIoA==
@@ -6057,17 +6049,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@9.8.7:
-  version "9.8.7"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.7.tgz#613f0aecfe0336ce6c8fa522ac43a5b5cce9ca94"
-  integrity sha512-1uiBd6Fr8gpJ2/zT+PspalyxbX5XVfgm3VDNRIOW3reVK/30QtwUWhk8NsRPa4NIfdVPyIaMfNJNTo9cFebcAg==
+next-sanity@9.8.8:
+  version "9.8.8"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.8.8.tgz#74fa6d862aedcf7312d67732ca21026e7ba5c256"
+  integrity sha512-37exA0W6VDHp66m72B934Sd7rwcVvch9VI/x4mgpHzbHUrReDknrGdWzTaKBe5iTQUHvZr8TE+GhyONO8MK5lQ==
   dependencies:
     "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.22.2"
     "@sanity/next-loader" "1.1.0"
     "@sanity/preview-kit" "5.1.10"
     "@sanity/preview-url-secret" "2.0.0"
-    "@sanity/visual-editing" "2.4.0"
+    "@sanity/visual-editing" "2.4.2"
     groq "^3.62.2"
     history "^5.3.0"
 
