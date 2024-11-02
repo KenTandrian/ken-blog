@@ -1894,10 +1894,10 @@
     uuid "^10.0.0"
     xstate "^5.18.2"
 
-"@sanity/core-loader@1.7.5":
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.5.tgz#060bf64ca3726aa551187947251987a339d6c071"
-  integrity sha512-xHH85EqWb30OnNd0vsTmky/Y+GT1ikVNba/gZrhNHAxXJImOCQvqO89WtV3DPyvIBCpvsoLQyM0DfSxSf+7CVw==
+"@sanity/core-loader@1.7.6":
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.6.tgz#d6910492b62e2546d83c7ccc0439b77c78a7ae1b"
+  integrity sha512-yFpQop+FSxRFG3Rf2gh4N6zFdkbidIULI1HSALvzeuMRHn4uHcFL4SjLA+ffMyVA4xEiomeSo4PmnWVVgLP+NQ==
   dependencies:
     "@sanity/comlink" "1.1.1"
 
@@ -2143,12 +2143,12 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.10.13":
-  version "1.10.13"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.13.tgz#f082d714db717680f083b5ea26c109c374460257"
-  integrity sha512-0zx/qt2TajRDJG/R+hS5ANPx6rdXLq+j38M98T6sJvbrV5YacyW5IL+ZNOf+K2XjFHrlfORbB89qAK0ChjV3iA==
+"@sanity/react-loader@1.10.14":
+  version "1.10.14"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.14.tgz#2317a9ffe7953f0a7fe8166065f1b64f0d961a3d"
+  integrity sha512-I6LoW3BBORQsM20RyFqXXebKWTuYfIkE5rmTsfgXycLtZZ6k5RCsdS7sqfubx/9eHemFdm8rPnJPUsPx0rk8RQ==
   dependencies:
-    "@sanity/core-loader" "1.7.5"
+    "@sanity/core-loader" "1.7.6"
 
 "@sanity/schema@3.62.2":
   version "3.62.2"
