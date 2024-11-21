@@ -2187,17 +2187,17 @@
     "@sanity/client" "^6.22.2"
     "@types/react" "^18.3.5"
 
-"@sanity/ui@^2.0.10", "@sanity/ui@^2.8.10":
-  version "2.8.18"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.18.tgz#e65ccb2dcd6e885a85bba2fe01c4246b9cd5beed"
-  integrity sha512-oHEkHY3SnII1Bpna3w4/QXY5+jCQL3ge3d20QuYWAEu/93mWzpg0i0RscPbmBimguu5amOsR4EjkQP3fFQNAeQ==
+"@sanity/ui@^2.0.10", "@sanity/ui@^2.8.10", "@sanity/ui@^2.8.24":
+  version "2.8.24"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.24.tgz#ebab092c9ffb1d2597cef6edf0f03a5901ccbd93"
+  integrity sha512-jSozL3SqV+ydzFmam0djz1gFqVCXIvI6m3ZgWiBHK1HFfXPfGfVAHHDprruhFVt6lJ8sHS5XI8JgRMWYjW3TEw==
   dependencies:
     "@floating-ui/react-dom" "^2.1.2"
     "@sanity/color" "^3.0.6"
     "@sanity/icons" "^3.4.0"
     csstype "^3.1.3"
     framer-motion "11.0.8"
-    react-compiler-runtime "19.0.0-beta-6fc168f-20241025"
+    react-compiler-runtime "19.0.0-beta-0dec889-20241115"
     react-refractor "^2.2.0"
     use-effect-event "^1.0.2"
 
@@ -2231,10 +2231,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.62.3":
-  version "3.62.3"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.62.3.tgz#373c357006a7ad12dc50809717063c77fd40d7b0"
-  integrity sha512-cm5sAQhS1WwURws07hJ6qO2H2+y+I+iS6AdCym+75de4rQQ/2NDZ/uIdj8kGf6WG3OH4Xk2L6+Z+KB4tvxAkTg==
+"@sanity/vision@3.64.2":
+  version "3.64.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.64.2.tgz#14fa8b9d883fa9ac6b895a51800db80fde459a63"
+  integrity sha512-xErFHatGIgwXFPYoI7i2ENN2SweqvEtszd5kT9SnnjnzC5omoLOJWkXIJGc8m8DZOQvzKQU55mLdaGAI7eIVmA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -2249,7 +2249,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.4.0"
-    "@sanity/ui" "^2.8.10"
+    "@sanity/ui" "^2.8.24"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
@@ -6742,6 +6742,11 @@ react-clientside-effect@^1.2.6:
   integrity sha512-XGGGRQAKY+q25Lz9a/4EPqom7WRjz3z9R2k4jhVKA/puQFH/5Nt27vFZYql4m4NVNdUvX8PS3O7r/Zzm7cjUlg==
   dependencies:
     "@babel/runtime" "^7.12.13"
+
+react-compiler-runtime@19.0.0-beta-0dec889-20241115:
+  version "19.0.0-beta-0dec889-20241115"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-0dec889-20241115.tgz#d316f7c8205d131000203ce51a0ce23c1822ac7d"
+  integrity sha512-dL5zzfEvM2dyDnaACP/HkY57/sDPR4R1Q9gPjEFk/3qO7coNc76W0dm3bRypTBNf9sGDuBI+HZSdusVUIbep4Q==
 
 react-compiler-runtime@19.0.0-beta-6fc168f-20241025:
   version "19.0.0-beta-6fc168f-20241025"
