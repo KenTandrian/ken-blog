@@ -12,7 +12,7 @@
   "dependencies": {
     "@heroicons/react": "2.2.0",
     "@portabletext/react": "3.1.0",
-    "@sanity/react-loader": "1.10.20",
+    "@sanity/react-loader": "1.10.27",
     "@sanity/vision": "3.64.3",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "15.0.3",
