@@ -1879,13 +1879,22 @@
     uuid "^10.0.0"
     xstate "^5.19.0"
 
-"@sanity/core-loader@1.7.18":
-  version "1.7.18"
-  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.18.tgz#2dc2cde8b44738c2596d24dd5e1ce0eaa916f6ef"
-  integrity sha512-rIec7GDMTAG2mHisVvLM43+GBxJbPM3KPv9WWtc5M5y2ZUlwvAKq7EDImGwtiFijtabYNJaSLtXwAppuKubnqg==
+"@sanity/comlink@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-2.0.1.tgz#a9d2d03ebc1c1891c2a77061fef59d4eed685ba9"
+  integrity sha512-Sdl0qCHwtKxEZ7Xa2xjKYslosmPteWB3p81u84X8PdTocVqp036S6r3vgQJPHlcEiEaJgMjpEJkjUaR8Jx5BcA==
+  dependencies:
+    rxjs "^7.8.1"
+    uuid "^10.0.0"
+    xstate "^5.19.0"
+
+"@sanity/core-loader@1.7.19":
+  version "1.7.19"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.19.tgz#720f2f3828b96502770adf00e1667560fc3fe0e9"
+  integrity sha512-pQBZeXMz0/ZPudwyFrla6DW3CZmH0QrV4+srRmRc6H76aiOC3m9k9LlI+mB6oldHf/zM/47gFe/P+dh77NZAkQ==
   dependencies:
     "@sanity/client" "^6.24.1"
-    "@sanity/comlink" "2.0.0"
+    "@sanity/comlink" "2.0.1"
 
 "@sanity/diff-match-patch@^3.1.1":
   version "3.1.1"
@@ -2138,13 +2147,13 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.10.27":
-  version "1.10.27"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.27.tgz#4c898635f9d775c1da70e278493512ad802c8657"
-  integrity sha512-DFI4mbwYjUqeOAhdhwd8xx9aH+2gZK+Nq9xSyqLCHCDz0dwRhAC+u+A0cIW1LIIyI4ehco2NwRYNCuktYTfCrQ==
+"@sanity/react-loader@1.10.28":
+  version "1.10.28"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.28.tgz#10e885fbaf9ce3d9777d458292a7cb76c9d3fdd0"
+  integrity sha512-xpiCEwJQ7ole9qanIfmDRefuSErmplmzJP29h24Efu/kMOnXOQo8UMTTdTCbHVFUJRNR4xcBWFH2MkQbExIpJg==
   dependencies:
     "@sanity/client" "^6.24.1"
-    "@sanity/core-loader" "1.7.18"
+    "@sanity/core-loader" "1.7.19"
 
 "@sanity/schema@3.65.1":
   version "3.65.1"
