@@ -42,6 +42,7 @@ interface Block {
   _key: string;
   _type: "block";
   children: Span[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   markDefs: any[];
   style: "normal" | "h1" | "h2" | "h3" | "h4" | "blockquote";
 }

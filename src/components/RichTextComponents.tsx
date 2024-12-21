@@ -1,8 +1,9 @@
 import { urlFor } from "@/sanity/lib/image";
+import type { PortableTextReactComponents } from "next-sanity";
 import Image from "next/image";
 import Link from "next/link";
 
-export const RichTextComponents = {
+export const RichTextComponents: Partial<PortableTextReactComponents> = {
   types: {
     image: ({ value }: { value: Image }) => {
       return (
@@ -48,7 +49,7 @@ export const RichTextComponents = {
     ),
   },
   marks: {
-    link: ({ children, value }: any) => {
+    link: ({ children, value }) => {
       const rel = !value.href.startsWith("/")
         ? "noreferrer noopener"
         : undefined;
