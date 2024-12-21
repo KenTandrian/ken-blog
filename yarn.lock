@@ -2345,10 +2345,10 @@
   dependencies:
     "@sanity/diff-match-patch" "^3.1.1"
 
-"@sanity/eslint-config-studio@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@sanity/eslint-config-studio/-/eslint-config-studio-5.0.0.tgz#68e0bac28fd0f957cc34c34b5f4fcf770f665e1c"
-  integrity sha512-Xa4ypVZBxUJKj2Vm7Xsy6oUjPQ3L7AxXEQR6zoIKTD61owsWV9Nr/U9/qvAKOCm+QjZiPzxlupSv0Win1Igg3w==
+"@sanity/eslint-config-studio@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@sanity/eslint-config-studio/-/eslint-config-studio-5.0.1.tgz#1ba7bdc5cd7240ece8df58b4e59d59870b6ae9c4"
+  integrity sha512-F1U4S4QQHlM+F9KLvqLXHzDerlgj402vU88b/jHb9DHkefEMJ97hwNXBGuNXQ/3cKq/hup1h7wl3nCK1oe5tdQ==
   dependencies:
     "@babel/core" "^7.26.0"
     "@babel/eslint-parser" "^7.25.9"
