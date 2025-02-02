@@ -1092,18 +1092,6 @@
   dependencies:
     "@emotion/memoize" "^0.8.1"
 
-"@emotion/is-prop-valid@^0.8.2":
-  version "0.8.8"
-  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
-  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
-  dependencies:
-    "@emotion/memoize" "0.7.4"
-
-"@emotion/memoize@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
-  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
-
 "@emotion/memoize@^0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.8.1.tgz#c1ddb040429c6d21d38cc945fe75c818cfb68e17"
@@ -2398,11 +2386,6 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-3.0.0.tgz#60e9cba61b82103ea3761730a53cd9310b98892d"
   integrity sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==
 
-"@sanity/icons@^2.7.0":
-  version "2.11.8"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.11.8.tgz#90a38b7d23b5c9f728a6e7ebdac80c3f76c64c35"
-  integrity sha512-C4ViXtk6eyiNTQ5OmxpfmcK6Jw+LLTi9zg9XBUD15DzC4xTHaGW9SVfUa43YtPGs3WC3M0t0K59r0GDjh52HIg==
-
 "@sanity/icons@^3.5.7":
   version "3.5.7"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.5.7.tgz#de54fb2bce392e677dd49d8b587d62fd7c4b5263"
@@ -2440,7 +2423,7 @@
     tar-fs "^2.1.1"
     tinyglobby "^0.2.9"
 
-"@sanity/incompatible-plugin@^1.0.4":
+"@sanity/incompatible-plugin@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@sanity/incompatible-plugin/-/incompatible-plugin-1.0.5.tgz#cdf50c88a0938906a15ac2eb6cc21cafea898b76"
   integrity sha512-9JGAacbElUPy9Chghd+sllIiM3jAcraZdD65bWYWUVKkghOsf1L/+jFLz1rcAuvrA9o2s7Y+T75BNcXuLwRcvw==
@@ -2586,17 +2569,10 @@
     "@sanity/presentation-comlink" "^1.0.4"
     mendoza "3.0.8"
 
-"@sanity/preview-url-secret@2.1.4", "@sanity/preview-url-secret@^2.1.4":
+"@sanity/preview-url-secret@2.1.4", "@sanity/preview-url-secret@^2.1.3", "@sanity/preview-url-secret@^2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-2.1.4.tgz#da015b1da0f813c96b1e0b03fd2b79a06fe3f09c"
   integrity sha512-D66VcYbGGXIkF4VQrvWo61l921LdyHKZgg5PYH0ZHcAE/wTXrMIM93I70jOp1DpN913c0vJ1sLxbLCbrEk7n8Q==
-  dependencies:
-    "@sanity/uuid" "3.0.2"
-
-"@sanity/preview-url-secret@^1.6.4":
-  version "1.6.21"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.21.tgz#f2810c19894d803d76035a3536fdf012c6188630"
-  integrity sha512-ZAIT4I5Nrsax+RBQVhSBY4PnnHgaI+eybSd5aHhjZi97+ziMTtTLnL1Hsg+ViLtPqJWwX0GiB0l8nSfGAt7+QA==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -2656,7 +2632,7 @@
   dependencies:
     "@sanity/client" "^6.27.2"
 
-"@sanity/ui@^2.0.10", "@sanity/ui@^2.11.4", "@sanity/ui@^2.11.6":
+"@sanity/ui@^2.11.4", "@sanity/ui@^2.11.6":
   version "2.11.7"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.11.7.tgz#ce39b4b0490d2f71e8c5e890923892fe3f56d2d7"
   integrity sha512-kXj5REjd3/gqGzNT4uwW+3VIdBZ+ytyHXLhQo+Y9Pyf4CGXE+B6jFx+F3vxafZrFd52uVavqPfgaV6zCwMhiTA==
@@ -5183,15 +5159,6 @@ fraction.js@^4.3.7:
   version "4.3.7"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
-
-framer-motion@11.0.8:
-  version "11.0.8"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.8.tgz#8f97a18cbad5858d85b53bc325c40a03d0a5c203"
-  integrity sha512-1KSGNuqe1qZkS/SWQlDnqK2VCVzRVEoval379j0FiUBJAZoqgwyvqFkfvJbgW2IPFo4wX16K+M0k5jO23lCIjA==
-  dependencies:
-    tslib "^2.4.0"
-  optionalDependencies:
-    "@emotion/is-prop-valid" "^0.8.2"
 
 framer-motion@^11.15.0:
   version "11.18.2"
@@ -8051,18 +8018,17 @@ sanity-diff-patch@^4.0.0:
   dependencies:
     "@sanity/diff-match-patch" "^3.1.1"
 
-sanity-plugin-iframe-pane@3.1.6:
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.1.6.tgz#6bcb84d77dad7e14248a5c98a134e176f9c64fe3"
-  integrity sha512-D+aEs+rIuVprcPSuqNNRiEr7OHZoc+zqhWU5cdaxUDe5XNtM4mJXwdofVLMibbp2g6rrAAWGSE9zY7l+R9swhA==
+sanity-plugin-iframe-pane@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.2.0.tgz#3076cca11bf6ecf49b69ac6f3225dba4a7458d94"
+  integrity sha512-bTKm5mGocRMghfNpLSzS/Q24oGv33thcgQztsDsE33y+VjEtmuzVUZr+jgvp1oTZdvCYkOkcfe84IMLyeVbedA==
   dependencies:
-    "@sanity/icons" "^2.7.0"
-    "@sanity/incompatible-plugin" "^1.0.4"
-    "@sanity/preview-url-secret" "^1.6.4"
-    "@sanity/ui" "^2.0.10"
-    framer-motion "11.0.8"
+    "@sanity/icons" "^3.5.7"
+    "@sanity/incompatible-plugin" "^1.0.5"
+    "@sanity/preview-url-secret" "^2.1.3"
+    "@sanity/ui" "^2.11.6"
+    framer-motion "^12.0.6"
     suspend-react "0.1.3"
-    usehooks-ts "3.0.1"
 
 sanity@3.72.1:
   version "3.72.1"
@@ -9335,13 +9301,6 @@ use-sync-external-store@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.4.0.tgz#adbc795d8eeb47029963016cefdf89dc799fcebc"
   integrity sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==
-
-usehooks-ts@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/usehooks-ts/-/usehooks-ts-3.0.1.tgz#fc7b7ecf4ba893f75de1023e0c89068360f165ba"
-  integrity sha512-bgJ8S9w/SnQyACd3RvWp3CGncROxEENGqQLCsdaoyTb0zTENIna7MIV3OW6ywCfPaYYD2OPokw7oLPmSLLWP4w==
-  dependencies:
-    lodash.debounce "^4.0.8"
 
 user-home@^2.0.0:
   version "2.0.0"
