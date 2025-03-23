@@ -15,7 +15,7 @@
     "@sanity/react-loader": "1.10.51",
     "@sanity/vision": "3.80.1",
     "@tailwindcss/line-clamp": "^0.4.4",
-    "next": "15.1.6",
+    "next": "15.2.3",
     "next-sanity": "9.8.47",
     "react": "19.0.0",
     "react-dom": "19.0.0",
