@@ -1,4 +1,5 @@
 import { map } from "rxjs";
+import { getDraftId } from "sanity";
 import type { DocumentLocationResolver } from "sanity/presentation";
 
 // Pass 'context' as the second argument
@@ -7,8 +8,11 @@ export const locations: DocumentLocationResolver = (params, context) => {
   if (params.type === "post") {
     // Subscribe to the latest slug and title
     const doc$ = context.documentStore.listenQuery(
-      `*[_id == $id][0]{slug,title}`,
-      params,
+      {
+        fetch: `*[_id==$id][0]{slug,title}`, 
+        listen: `*[_id in [$id,$draftId]]`,
+      },
+      { id: params.id, draftId: getDraftId(params.id) },
       { perspective: "previewDrafts" } // returns a draft article if it exists
     );
 
