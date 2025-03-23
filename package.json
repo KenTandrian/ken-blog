@@ -13,7 +13,7 @@
     "@heroicons/react": "2.2.0",
     "@portabletext/react": "3.2.1",
     "@sanity/react-loader": "1.10.51",
-    "@sanity/vision": "3.72.1",
+    "@sanity/vision": "3.80.1",
     "@tailwindcss/line-clamp": "^0.4.4",
     "next": "15.1.6",
     "next-sanity": "9.8.47",
