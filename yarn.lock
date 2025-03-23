@@ -2312,10 +2312,10 @@
     semver "^7.3.5"
     validate-npm-package-name "^3.0.0"
 
-"@sanity/client@^6.22.4", "@sanity/client@^6.24.1", "@sanity/client@^6.27.2":
-  version "6.27.2"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.27.2.tgz#7588595881c76c271e048e0c547208a0c5940c08"
-  integrity sha512-x5KaN5atPnEFa3GGSH3YKSAYh1MAECvEs9o+NSLd5W19imxvSxPquQBv0Q60Zdsg6iaTJPAAa79Ak5Xyg2FHvA==
+"@sanity/client@^6.22.4", "@sanity/client@^6.24.1", "@sanity/client@^6.27.2", "@sanity/client@^6.28.3":
+  version "6.28.3"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.28.3.tgz#d9e0533ef0a6fafff14b989b740800b0abf06282"
+  integrity sha512-/W/w0pl0wx1vn6RKUaOTNHVcBDvBcjZk6agpl4vwTCxvNQhh74nY9xk+/heap3KriSHp95ilChv/qVYMz2/l3w==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.7"
@@ -2356,15 +2356,15 @@
     uuid "^11.0.5"
     xstate "^5.19.2"
 
-"@sanity/core-loader@1.7.32":
-  version "1.7.32"
-  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.32.tgz#97f33aae63fa9580dc613bdc2ed28afa7b3c5f55"
-  integrity sha512-gWxTvzXVPCcIWkTZ07oLq2D5/ngAWutfFyndQglds7GrIC2OJeTwslA0VLXJhWmW5hfmnlmT/RINwQYAlSrlHg==
+"@sanity/core-loader@^1.7.42":
+  version "1.7.42"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.7.42.tgz#559b3df00cf2e7d5c09b488cfc4adc21733748f4"
+  integrity sha512-77z+zS9vd8XT+3Iw2X8SuvQFxONSneZlg/rizRIBsFe83f5PlVFvZzq7O0/8GuWGsu0oFZPR0OJXRskjxcPpRA==
   dependencies:
-    "@sanity/client" "^6.27.2"
+    "@sanity/client" "^6.28.3"
     "@sanity/comlink" "^3.0.1"
-    "@sanity/presentation-comlink" "^1.0.4"
-    "@sanity/visual-editing-csm" "^2.0.2"
+    "@sanity/presentation-comlink" "^1.0.12"
+    "@sanity/visual-editing-csm" "^2.0.9"
 
 "@sanity/diff-match-patch@^3.1.1", "@sanity/diff-match-patch@^3.2.0":
   version "3.2.0"
@@ -2592,13 +2592,13 @@
     zod "3.24.1"
     zod-validation-error "3.4.0"
 
-"@sanity/presentation-comlink@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.4.tgz#ae05451eaa03b283a648ee0be7a159d22c160e9d"
-  integrity sha512-TqXTjVPM8vRFXpATZ5eRPv9vGp3XsStGcW1SB3csXekNTEJSdP/VgWqtaMTsrtE4tYYcYPe1kB2DsbnE5k0Sxg==
+"@sanity/presentation-comlink@^1.0.12", "@sanity/presentation-comlink@^1.0.4":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.12.tgz#acff841471120ef45a07511b126350b55e0462e7"
+  integrity sha512-gXwNjL+95E2nxTkT1CBcyvxXOo9C1m59h3J685Xsa0Q8MD4kSmQkWe/ehBcfVaoaIv29Il69MKgG2xH9akkscA==
   dependencies:
     "@sanity/comlink" "^3.0.1"
-    "@sanity/visual-editing-types" "^1.0.4"
+    "@sanity/visual-editing-types" "^1.0.11"
 
 "@sanity/preview-kit@5.2.2":
   version "5.2.2"
@@ -2616,14 +2616,14 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.10.41":
-  version "1.10.41"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.41.tgz#6b82fd7842579662187c633fcf25cbaf6df7af3f"
-  integrity sha512-HkY7VOkk+7HgHye/e4BX5+UJxHarbWdlUXsHLExsIeSG9kwO0YhjefszEE2SFx9Tu8sHbCL/cuLuCgLyl0Hk+w==
+"@sanity/react-loader@1.10.51":
+  version "1.10.51"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.10.51.tgz#c2f6289ccfcca703b48b11d072f10cbd5a12b1b9"
+  integrity sha512-v2l6RBP3iV67/rDa8DD7ixnewoJc6IwwW4DLs20DsfEtXkTLKEfCntg+WyE0LpHAgXVtX9NJfvOEuxz5qNXAZg==
   dependencies:
-    "@sanity/client" "^6.27.2"
-    "@sanity/core-loader" "1.7.32"
-    "@sanity/visual-editing-csm" "^2.0.2"
+    "@sanity/client" "^6.28.3"
+    "@sanity/core-loader" "^1.7.42"
+    "@sanity/visual-editing-csm" "^2.0.9"
 
 "@sanity/schema@3.72.1":
   version "3.72.1"
@@ -2743,18 +2743,18 @@
     quick-lru "^5.1.1"
     react-compiler-runtime "19.0.0-beta-27714ef-20250124"
 
-"@sanity/visual-editing-csm@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.2.tgz#75e3e408b94479b6828eb593a239524ee5931c09"
-  integrity sha512-Trk9cosL/mwx9wMPIMcPulf66Yodil0Z+KVM9h4NfI9lj5LbIzp5jejOnZqLr1HASQik0JG7k8azJJR8fdSiqg==
+"@sanity/visual-editing-csm@^2.0.2", "@sanity/visual-editing-csm@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.9.tgz#a1064fc4172ce58e1710222c943ce9a82fe3a9a9"
+  integrity sha512-6plsEyHly95JS7voJv4lbhmXpzpMhDY1rXtsVexIziheSl806k6tMTeXraOStYbD65y/cL3OoHJcyC34DLtiVw==
   dependencies:
-    "@sanity/visual-editing-types" "^1.0.4"
+    "@sanity/visual-editing-types" "^1.0.11"
     valibot "0.31.1"
 
-"@sanity/visual-editing-types@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.4.tgz#50493735b004ffcb9533fb1bbb2cbc58e0a61964"
-  integrity sha512-zg4fObu+okPBD4/xAYF1IQjvtDTmRzS2eRFYvqG+TGHGygNIZjIx0obZAMioXvUoTZqy3eZzyzyadbsYM/w0RA==
+"@sanity/visual-editing-types@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.11.tgz#08c945046f1b88eb91d00b8aaab49ff1d43b5e7a"
+  integrity sha512-EkN9fnhcEDADuksXWg5Q23RakGY59nBvQj6UyYm5qb1ITTERnXWkHEGPK25vg8P54d/pfX9rzhu7j3EFf3eAzw==
 
 "@sanity/visual-editing@2.12.11":
   version "2.12.11"
