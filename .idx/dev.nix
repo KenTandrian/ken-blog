@@ -19,7 +19,7 @@
     };
     workspace = {
       onCreate = {
-        create-env = "cp .env.example .env";
+        create-env = "cp .env.example .env.local";
       };
       onStart = {
         install-deps = "yarn install";
