@@ -3,6 +3,8 @@
     "source.organizeImports": "explicit"
   },
   "editor.formatOnSave": true,
+  "IDX.aI.enableCodebaseIndexing": true,
+  "IDX.aI.enableInlineCompletion": true,
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
