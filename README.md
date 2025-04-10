@@ -5,18 +5,18 @@
 [![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/sanity-v3-blog)](https://github.com/KenTandrian/sanity-v3-blog/commits/main)
 [![last-commit](https://img.shields.io/github/last-commit/KenTandrian/sanity-v3-blog)](https://github.com/KenTandrian/sanity-v3-blog/commits/main)
 
-<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2FKenTandrian%2Fken-blog">
+<a href="https://studio.firebase.google.com/import?url=https%3A%2F%2Fgithub.com%2FKenTandrian%2Fken-blog">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+      srcset="https://cdn.firebasestudio.dev/btn/open_dark_32.svg">
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+      srcset="https://cdn.firebasestudio.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="Open in IDX"
-      src="https://cdn.idx.dev/btn/open_purple_32.svg">
+      alt="Open in Firebase Studio"
+      src="https://cdn.firebasestudio.dev/btn/open_blue_32.svg">
   </picture>
 </a>
 
