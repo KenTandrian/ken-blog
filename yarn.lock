@@ -2812,10 +2812,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.82.0":
-  version "3.82.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.82.0.tgz#df27aec9b37bf117d103320482da3ac8c67c745f"
-  integrity sha512-5IdiZOQa09pDHh7lXgXAW2ki9cE/9/XO4GVHFDzTGnk3rz42NlnhXmpFYsP+MMDw/cJ27nCJcVAUfC3FfxPrxQ==
+"@sanity/vision@3.84.0":
+  version "3.84.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.84.0.tgz#4db4f440fa7eec3e778ee2d71acfebe01b1d3cf6"
+  integrity sha512-iblnhopg9d6iQxvKWVbswli3PVIexOQCQI9KVPVzL6Y6ZRTdAglvLK7DAJ8ksEKQnhSueWsgFtqzKkRtZbGdOA==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -2830,14 +2830,14 @@
     "@rexxars/react-split-pane" "^1.0.0"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.7.0"
-    "@sanity/ui" "^2.15.10"
+    "@sanity/ui" "^2.15.13"
     "@uiw/react-codemirror" "^4.23.8"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
     json5 "^2.2.3"
     lodash "^4.17.21"
     quick-lru "^5.1.1"
-    react-compiler-runtime "19.0.0-beta-e993439-20250328"
+    react-compiler-runtime "19.0.0-beta-e993439-20250405"
     react-fast-compare "^3.2.2"
     use-effect-event "^1.0.2"
 
