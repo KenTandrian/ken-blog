@@ -2460,7 +2460,7 @@
     uuid "^11.0.5"
     xstate "^5.19.2"
 
-"@sanity/core-loader@^1.8.1":
+"@sanity/core-loader@^1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.8.5.tgz#ccf9cef9a8103e9fdfe6e7518d77a2f17dfc0606"
   integrity sha512-EA0t1uekr4rat8VJVwNyAu5XNojq2JR4CCovpJfi9IS4274Xj4+9nb1t3hUs9cVZdtzlqyMDT4t0ujuKbhGr7A==
@@ -2689,14 +2689,14 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.11.1.tgz#8cb146ef866c3a267e771459545fb5fedd2dbaeb"
-  integrity sha512-O1P24WoXCni0llDUvaOLhaV+Bis4R5WHYRYbaXf1cGiJ/eSf0FiaVNdW86aOdKmAgAn628BaVpHxumHO21hdDQ==
+"@sanity/react-loader@1.11.6":
+  version "1.11.6"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.11.6.tgz#3ebefad1847ed9b3be982a48a8ce9e8004a54121"
+  integrity sha512-8O8haw+BdY54MKARoLwICJKU5olIzn3kSv+5LrYnz5i1+pvI0RbqgVEEkvl5KLhAJTCzTUBVCZVc28LH6Om2qA==
   dependencies:
-    "@sanity/client" "^6.28.4"
-    "@sanity/core-loader" "^1.8.1"
-    "@sanity/visual-editing-csm" "^2.0.11"
+    "@sanity/client" "^6.29.0"
+    "@sanity/core-loader" "^1.8.5"
+    "@sanity/visual-editing-csm" "^2.0.14"
 
 "@sanity/runtime-cli@^1.1.1":
   version "1.8.2"
@@ -2841,7 +2841,7 @@
     react-fast-compare "^3.2.2"
     use-effect-event "^1.0.2"
 
-"@sanity/visual-editing-csm@^2.0.11", "@sanity/visual-editing-csm@^2.0.14":
+"@sanity/visual-editing-csm@^2.0.14":
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.14.tgz#20fc1a62c2074f29baa5687acce3795ba1b26bb7"
   integrity sha512-hyF+j2WaO+BZUeaIaivYlv/ucy4oglNfvlAZnEFA1wdtZgHrhKDAwMIt0+9HsqGwJvU52GQ35CJEr4SQbURITw==
