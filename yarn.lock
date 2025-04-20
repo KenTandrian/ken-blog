@@ -9083,6 +9083,15 @@ typeid-js@^0.3.0:
   dependencies:
     uuidv7 "^0.4.4"
 
+typescript-eslint@8.30.1:
+  version "8.30.1"
+  resolved "https://registry.yarnpkg.com/typescript-eslint/-/typescript-eslint-8.30.1.tgz#c9ed49b459bd98e325fb78e2c86943dce7bb1cc0"
+  integrity sha512-D7lC0kcehVH7Mb26MRQi64LMyRJsj3dToJxM1+JVTl53DQSV5/7oUGWQLcKl1C1KnoVHxMMU2FNQMffr7F3Row==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "8.30.1"
+    "@typescript-eslint/parser" "8.30.1"
+    "@typescript-eslint/utils" "8.30.1"
+
 typescript-eslint@^8.17.0:
   version "8.29.1"
   resolved "https://registry.yarnpkg.com/typescript-eslint/-/typescript-eslint-8.29.1.tgz#c0b205e542ade22f9027caaaa9c4ec31a202010f"
