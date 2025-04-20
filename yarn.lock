@@ -2681,10 +2681,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.84.0":
-  version "3.84.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.84.0.tgz#4db4f440fa7eec3e778ee2d71acfebe01b1d3cf6"
-  integrity sha512-iblnhopg9d6iQxvKWVbswli3PVIexOQCQI9KVPVzL6Y6ZRTdAglvLK7DAJ8ksEKQnhSueWsgFtqzKkRtZbGdOA==
+"@sanity/vision@3.85.1":
+  version "3.85.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.85.1.tgz#8e8163644a624171531753c01f8806803b431fee"
+  integrity sha512-raTRmxF/Yhw+uIi8rWY61Y5OurJO+F1LP48mnAZZT/36uuM527omcOMqRfIl/RqbNSRzqsboUS2dGEcGQUH0dw==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
