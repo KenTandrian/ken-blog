@@ -22,7 +22,7 @@
     "sanity": "3.89.0",
     "sanity-plugin-iframe-pane": "3.2.1",
     "sharp": "0.34.2",
-    "styled-components": "6.1.17"
+    "styled-components": "6.1.18"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "5.0.2",
