@@ -2318,13 +2318,14 @@
     get-it "^8.6.7"
     rxjs "^7.0.0"
 
-"@sanity/client@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.0.0.tgz#9387170f03856c43c26e772f96abd3d05fdd19f7"
-  integrity sha512-Kr96rYNJpA/zSyYhio9tx3SvID1ew2Y4mICzHYe81xF1MdjZLdUf0BudRv+wSa1QxtQdBnY4hDZKA96BAYo5ng==
+"@sanity/client@^7.0.0", "@sanity/client@^7.1.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.3.0.tgz#7c19bc54a5af4ec578953833acfdb973691ec2cf"
+  integrity sha512-VmzlvGwvWRNxEqAYHNDdvB6u0460C38fPJSHUaIcdBCTBWKMeCgIE8QI1w4PxO0PiYuWgERexRS2OrF+OYh3tQ==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
-    get-it "^8.6.7"
+    get-it "^8.6.9"
+    nanoid "^3.3.11"
     rxjs "^7.0.0"
 
 "@sanity/codegen@3.87.1":
@@ -2362,24 +2363,24 @@
     uuid "^11.0.4"
     xstate "^5.19.1"
 
-"@sanity/comlink@^3.0.1", "@sanity/comlink@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-3.0.2.tgz#061741f49ba5e2ae2e6e1f90970b9e820c123c72"
-  integrity sha512-KCfB6QIaLIJHdriCOJz3oq3XT7j9HpFNF1ZEak+j+VzrpbsCIRSoOmgbvPugTrI3TPVGOApEwnu1MGeuQxqN1w==
+"@sanity/comlink@^3.0.1", "@sanity/comlink@^3.0.2", "@sanity/comlink@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-3.0.4.tgz#197cfe67020814c37e3e85e942942438f2737f34"
+  integrity sha512-2yXb7xKOkR0xW1/5/oEuPFPlitmHbdOxskDI7g/MgiezfcWaotAmAqmv9S4vugd1Z8URjWN1FAh0vL67iZowKA==
   dependencies:
     rxjs "^7.8.2"
     uuid "^11.1.0"
     xstate "^5.19.2"
 
-"@sanity/core-loader@^1.8.7":
-  version "1.8.7"
-  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.8.7.tgz#1934d04e7c6bd48909e9a6cadfe45992805716f8"
-  integrity sha512-E2waDLFRRDkq4UY+QVs9dx8tSoJ/G+LWx2Efyp2e9XHVl4BvryodMRrw71tKtbVUG2weMVKxNbcFP+PS9sghRw==
+"@sanity/core-loader@^1.8.9":
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/@sanity/core-loader/-/core-loader-1.8.9.tgz#4279b0e16b196d1b1caf109934834da399a500b4"
+  integrity sha512-Mv5i7jLDNnh0jO58FUR/n6OI9z6nbh6j51ooT7sOG0J8bdOFH++sSmWldMZS00/RGT5T+pIhfhBU7k8NbJB8XA==
   dependencies:
-    "@sanity/client" "^7.0.0"
-    "@sanity/comlink" "^3.0.2"
-    "@sanity/presentation-comlink" "^1.0.18"
-    "@sanity/visual-editing-csm" "^2.0.16"
+    "@sanity/client" "^7.1.0"
+    "@sanity/comlink" "^3.0.4"
+    "@sanity/presentation-comlink" "^1.0.20"
+    "@sanity/visual-editing-csm" "^2.0.17"
 
 "@sanity/diff-match-patch@^3.1.1", "@sanity/diff-match-patch@^3.2.0":
   version "3.2.0"
@@ -2581,13 +2582,13 @@
     dequal "^2.0.3"
     use-effect-event "^1.0.2"
 
-"@sanity/presentation-comlink@^1.0.16", "@sanity/presentation-comlink@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.18.tgz#673643bcdf5750fdf3634dc1fdc2366e1fcc86ae"
-  integrity sha512-VgPgVlt50CWOWcEV4Gk0E8UnIgTaX8VfATeXbaeC7Oy1l5c7cVRr5g5wFacTaEqdNusOggSK9LGRrZgmjiZ/7w==
+"@sanity/presentation-comlink@^1.0.16", "@sanity/presentation-comlink@^1.0.18", "@sanity/presentation-comlink@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@sanity/presentation-comlink/-/presentation-comlink-1.0.20.tgz#bf69594728a03aa6f36aa14100383971fa201590"
+  integrity sha512-gujasXlqbXldeQRuo3OF5vN/7gss2lwhbrTRS0sH6eHwSIBPcpTDXiCdd8IVo2fCj2rdkfxIOooE+O+aGv8cww==
   dependencies:
-    "@sanity/comlink" "^3.0.2"
-    "@sanity/visual-editing-types" "^1.0.17"
+    "@sanity/comlink" "^3.0.4"
+    "@sanity/visual-editing-types" "^1.0.18"
 
 "@sanity/preview-kit@^6.0.12":
   version "6.0.12"
@@ -2605,14 +2606,14 @@
   dependencies:
     "@sanity/uuid" "3.0.2"
 
-"@sanity/react-loader@1.11.8":
-  version "1.11.8"
-  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.11.8.tgz#f6f800f74f8dda79c17e6eb4a32f2a0665adf9a8"
-  integrity sha512-UCfQjibzcvCWxIRPnpHQadqF0lCyuFPZG2mN6HDstlbLdmGWAfZJcqCR6sew1QuJzBw4+d1Vu6WbVt37j22GCg==
+"@sanity/react-loader@1.11.10":
+  version "1.11.10"
+  resolved "https://registry.yarnpkg.com/@sanity/react-loader/-/react-loader-1.11.10.tgz#d9922c418891cf467f431b3b7f0c04ad59e301dd"
+  integrity sha512-NS7s8ufkhifn1bShDPa6lQVq+k17RRBcsKjA+e+GGIWMvcuOrmJInmCavqgEYRG0VNdYYgN+dWmc6If1LDBy9Q==
   dependencies:
-    "@sanity/client" "^7.0.0"
-    "@sanity/core-loader" "^1.8.7"
-    "@sanity/visual-editing-csm" "^2.0.16"
+    "@sanity/client" "^7.1.0"
+    "@sanity/core-loader" "^1.8.9"
+    "@sanity/visual-editing-csm" "^2.0.17"
 
 "@sanity/runtime-cli@^3.0.0":
   version "3.2.0"
@@ -2767,18 +2768,18 @@
     react-fast-compare "^3.2.2"
     use-effect-event "^1.0.2"
 
-"@sanity/visual-editing-csm@^2.0.16":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.16.tgz#763506efa277854767d4e4ba12504c0154d6095c"
-  integrity sha512-1mcqFnvFimTzPd2iYIEWkizszoolWY5q2cllZTHJJvRTf5aMbzRzLAkZbgJ2n+RFvcBb8VEZIWuoaxVc20kkSA==
+"@sanity/visual-editing-csm@^2.0.16", "@sanity/visual-editing-csm@^2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.17.tgz#8fc0410064d2f4687c191676c3414f55965477a7"
+  integrity sha512-UidaEZZWBI+PXRJCl9jhHV2uYfJEW6gSNqP2N1tu/FwvceVx+9r7KiIDIiyfdMDNYl+1I+4l1fNt9FTdFuMnTg==
   dependencies:
-    "@sanity/visual-editing-types" "^1.0.17"
-    valibot "^1.0.0"
+    "@sanity/visual-editing-types" "^1.0.18"
+    valibot "^1.1.0"
 
-"@sanity/visual-editing-types@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.17.tgz#1b99ffb93a91337fa9e7fadf364a921bb6ebc7aa"
-  integrity sha512-nb8YyyPqeTIzf5mkxV/cbN/QdNpIKq32AUoaIj2pCfZYuQk2vUMZnhjmHQmWnCt8M+c7KFPsW7yTy2PRQeF/Nw==
+"@sanity/visual-editing-types@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.0.18.tgz#0107bb7b90df005905f128c982ac7a3855c7c29b"
+  integrity sha512-5opaVrSIdDnvVSmt3aQE5KIro8w7lbgshAX5mjB8T4i2beyUWA1FECKLzCmYN1JQoZk1CamdFqXfz6t7SnptWA==
 
 "@sanity/visual-editing@^2.13.20":
   version "2.13.20"
@@ -3110,13 +3111,6 @@
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz#56e2cc26c397c038fab0e3a917a12d5c5909e901"
   integrity sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==
-
-"@types/progress-stream@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@types/progress-stream/-/progress-stream-2.0.5.tgz#50f10be88b0717c8fce6573e7fcafa8eabbc3dcf"
-  integrity sha512-5YNriuEZkHlFHHepLIaxzq3atGeav1qCTGzB74HKWpo66qjfostF+rHc785YYYHeBytve8ZG3ejg42jEIfXNiQ==
-  dependencies:
-    "@types/node" "*"
 
 "@types/react-dom@19.1.3":
   version "19.1.3"
@@ -5584,17 +5578,16 @@ get-intrinsic@^1.2.4, get-intrinsic@^1.2.5, get-intrinsic@^1.2.6, get-intrinsic@
     hasown "^2.0.2"
     math-intrinsics "^1.1.0"
 
-get-it@^8.4.21, get-it@^8.6.2, get-it@^8.6.7:
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.7.tgz#baaf3241b404ba77c61ec194ccb0155d4ca9224c"
-  integrity sha512-AMEotvykAlcEPTPmYeZPqr9w3K53Ni8z1tplo1mwNS8T4i/gr5T7mSfvaLhhIQhF+0thIH901kLdDA5d5bvDGA==
+get-it@^8.4.21, get-it@^8.6.2, get-it@^8.6.7, get-it@^8.6.9:
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.9.tgz#89b939130ff387aebe84c8785626ef3acd96e779"
+  integrity sha512-CSUbVbfTZZbRrPqiMPaV3mWw+3MDgRPANtqBxLSp94cUUUZVAZfjGDwArvu5z2bx5ABW2MNB5kdT3PTOxe3cTw==
   dependencies:
     "@types/follow-redirects" "^1.14.4"
-    "@types/progress-stream" "^2.0.5"
     decompress-response "^7.0.0"
     follow-redirects "^1.15.9"
     is-retry-allowed "^2.2.0"
-    progress-stream "^2.0.0"
+    through2 "^4.0.2"
     tunnel-agent "^0.6.0"
 
 get-package-type@^0.1.0:
@@ -7054,7 +7047,7 @@ nano-pubsub@^3.0.0:
   resolved "https://registry.yarnpkg.com/nano-pubsub/-/nano-pubsub-3.0.0.tgz#86f525bc91ad1445a02049e40a3038b96a01dfaf"
   integrity sha512-zoTNyBafxG0+F5PP3T3j1PKMr7gedriSdYRhLFLRFCz0OnQfQ6BkVk9peXVF30hz633Bw0Zh5McleOrXPjWYCQ==
 
-nanoid@^3.1.12, nanoid@^3.1.30, nanoid@^3.3.6, nanoid@^3.3.7, nanoid@^3.3.8:
+nanoid@^3.1.12, nanoid@^3.1.30, nanoid@^3.3.11, nanoid@^3.3.6, nanoid@^3.3.7, nanoid@^3.3.8:
   version "3.3.11"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
   integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
@@ -7667,14 +7660,6 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
-progress-stream@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/progress-stream/-/progress-stream-2.0.0.tgz#fac63a0b3d11deacbb0969abcc93b214bce19ed5"
-  integrity sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==
-  dependencies:
-    speedometer "~1.0.0"
-    through2 "~2.0.3"
-
 prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
@@ -7914,7 +7899,7 @@ readable-stream@2, readable-stream@^2.0.0, readable-stream@^2.0.5, readable-stre
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-"readable-stream@2 || 3", readable-stream@^3.0.2, readable-stream@^3.1.1, readable-stream@^3.4.0:
+"readable-stream@2 || 3", readable-stream@3, readable-stream@^3.0.2, readable-stream@^3.1.1, readable-stream@^3.4.0:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.2.tgz#56a9b36ea965c00c5a93ef31eb111a0f11056967"
   integrity sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==
@@ -8707,11 +8692,6 @@ speakingurl@^14.0.1:
   resolved "https://registry.yarnpkg.com/speakingurl/-/speakingurl-14.0.1.tgz#f37ec8ddc4ab98e9600c1c9ec324a8c48d772a53"
   integrity sha512-1POYv7uv2gXoyGFpBCmpDVSNV74IfsWlDW216UPjbWufNf+bSU6GdbDsxdcxtfwb4xlI3yxzOTKClUosxARYrQ==
 
-speedometer@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/speedometer/-/speedometer-1.0.0.tgz#cd671cb06752c22bca3370e2f334440be4fc62e2"
-  integrity sha512-lgxErLl/7A5+vgIIXsh9MbeukOaCb2axgQ+bKCdIE+ibNT4XNYGNCR1qFEGq6F+YDASXK3Fh/c5FgtZchFolxw==
-
 split2@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/split2/-/split2-4.2.0.tgz#c9c5920904d148bab0b9f67145f245a86aadbfa4"
@@ -9059,7 +9039,7 @@ text-decoder@^1.1.0:
   dependencies:
     b4a "^1.6.4"
 
-through2@^2.0.3, through2@~2.0.3:
+through2@^2.0.3:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
   integrity sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==
@@ -9074,6 +9054,13 @@ through2@^3.0.1:
   dependencies:
     inherits "^2.0.4"
     readable-stream "2 || 3"
+
+through2@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-4.0.2.tgz#a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764"
+  integrity sha512-iOqSav00cVxEEICeD7TjLB1sueEL+81Wpzp2bY17uZjZN0pWZPuo4suZ/61VujxmqSGFfgOcNuTZ85QJwNZQpw==
+  dependencies:
+    readable-stream "3"
 
 through@^2.3.8:
   version "2.3.8"
@@ -9536,10 +9523,10 @@ uuidv7@^0.4.4:
   resolved "https://registry.yarnpkg.com/uuidv7/-/uuidv7-0.4.4.tgz#e7ffd7981f590c478fb8868eff4bb3bc55fa90e6"
   integrity sha512-jjRGChg03uGp9f6wQYSO8qXkweJwRbA5WRuEQE8xLIiehIzIIi23qZSzsyvZPCPoFqkeLtZuz7Plt1LGukAInA==
 
-valibot@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/valibot/-/valibot-1.0.0.tgz#1f82514296abcd23d0ae4280088ba85f8651c564"
-  integrity sha512-1Hc0ihzWxBar6NGeZv7fPLY0QuxFMyxwYR2sF1Blu7Wq7EnremwY2W02tit2ij2VJT8HcSkHAQqmFfl77f73Yw==
+valibot@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/valibot/-/valibot-1.1.0.tgz#873bb1af9e1577391690307bfe0520bd1360ec2d"
+  integrity sha512-Nk8lX30Qhu+9txPYTwM0cFlWLdPFsFr6LblzqIySfbZph9+BFsAHsNvHOymEviUepeIW6KFHzpX8TKhbptBXXw==
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
