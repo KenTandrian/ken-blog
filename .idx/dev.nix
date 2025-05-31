@@ -1,5 +1,5 @@
 { pkgs }: {
-  channel = "stable-24.11";
+  channel = "stable-25.05";
   packages = [
     pkgs.nodejs_22
     pkgs.yarn
