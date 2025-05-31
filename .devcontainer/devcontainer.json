@@ -1,0 +1,24 @@
+{
+  "name": "Next.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "yarn install",
+  "postAttachCommand": "yarn dev",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000]
+}
