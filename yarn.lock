@@ -2366,15 +2366,15 @@
   resolved "https://registry.yarnpkg.com/@sanity/incompatible-plugin/-/incompatible-plugin-1.0.5.tgz#cdf50c88a0938906a15ac2eb6cc21cafea898b76"
   integrity sha512-9JGAacbElUPy9Chghd+sllIiM3jAcraZdD65bWYWUVKkghOsf1L/+jFLz1rcAuvrA9o2s7Y+T75BNcXuLwRcvw==
 
-"@sanity/insert-menu@^1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@sanity/insert-menu/-/insert-menu-1.1.11.tgz#80cb6e396108d8cd6b04f88ee79a710947bd9d4b"
-  integrity sha512-81CTHoX8X7j3PChAJ72KwNeAffPJDpnuPOBGxFDE7ycaIk71LDBWME0UUNb2A4DKI+wpOrNpsNWr9++qET8dhg==
+"@sanity/insert-menu@^1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@sanity/insert-menu/-/insert-menu-1.1.12.tgz#b3137aa1ff77e152010e3c1add3020630d7e0548"
+  integrity sha512-pJyV3c+wFk1xYBD87CynhjJFi96gd5ybAWijz9z/uNU5YieywKjuFAYRcZBfBU24Ihncuf3LdOmkwtcJFG1w1A==
   dependencies:
     "@sanity/icons" "^3.7.0"
-    "@sanity/ui" "^2.15.14"
+    "@sanity/ui" "^2.15.17"
     lodash "^4.17.21"
-    react-compiler-runtime "19.1.0-rc.1"
+    react-compiler-runtime "19.1.0-rc.2"
 
 "@sanity/logos@^2.2.0":
   version "2.2.0"
@@ -2646,7 +2646,7 @@
     rxjs "^7.8.0"
     use-effect-event "^1.0.2"
 
-"@sanity/visual-editing-csm@^2.0.17", "@sanity/visual-editing-csm@^2.0.18":
+"@sanity/visual-editing-csm@^2.0.18":
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-csm/-/visual-editing-csm-2.0.18.tgz#88c43de87037cc2cf40dfd7ec83737111096bac8"
   integrity sha512-RWz4QpmbTpEOnWcpUfSlwFzskm8soi4A5sWuz+P7he2z/jOugVp6pbhsTp3ReuOYwvC2GjfPQVg/sfa51vjIcA==
@@ -2659,22 +2659,22 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.1.0.tgz#4bba3ed74d2387623e2a59dea6e7000be8ed9c11"
   integrity sha512-Tb4bdy+He/ZFoCMbfPMiSq7rQHfShMOSKg6SC8zbJug9EKjfOzuWEJ5AS4YVu+8vgaPs0KKibyCoOuHTV95n0w==
 
-"@sanity/visual-editing@^2.13.20":
-  version "2.13.22"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.13.22.tgz#f7bcade059c6ba289354f41e1f2313c21e6e3d19"
-  integrity sha512-vesZmlmrfJnu9eMus2iOdeF6yhVmKl7xWmm1fRabM4tZ2bij4yDz0LSRpeqhCIBiEcCI6g1E/xgzMC2qLIFVCg==
+"@sanity/visual-editing@^2.14.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-2.15.0.tgz#2d2bbba2ac7839d97b7d4d3e4d88d83660024951"
+  integrity sha512-l9MrudT4cvLjvDRlLSFSn4/JuQqQ25uQKP/NDSxPB18WQzDms2DqilLJVtLHoW1PeY3UQWMseAsFr9kqzG4vTQ==
   dependencies:
-    "@sanity/comlink" "^3.0.4"
+    "@sanity/comlink" "^3.0.5"
     "@sanity/icons" "^3.7.0"
-    "@sanity/insert-menu" "^1.1.11"
+    "@sanity/insert-menu" "^1.1.12"
     "@sanity/mutate" "0.11.0-canary.4"
-    "@sanity/presentation-comlink" "^1.0.20"
+    "@sanity/presentation-comlink" "^1.0.21"
     "@sanity/preview-url-secret" "^2.1.11"
     "@sanity/ui" "^2.15.17"
-    "@sanity/visual-editing-csm" "^2.0.17"
+    "@sanity/visual-editing-csm" "^2.0.18"
     "@vercel/stega" "0.1.2"
     get-random-values-esm "^1.0.2"
-    react-compiler-runtime "19.1.0-rc.1"
+    react-compiler-runtime "19.1.0-rc.2"
     rxjs "^7.8.2"
     scroll-into-view-if-needed "^3.1.0"
     use-effect-event "^1.0.2"
@@ -6877,17 +6877,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@9.11.1:
-  version "9.11.1"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.11.1.tgz#0c1496771119eead8f4e89d404897d1d7ff6896c"
-  integrity sha512-5zPkkRuLAzwdOKSd8ypMnotvqDwzNjkHTpHt6Noovi0BM8Y5UGM6BOmEQ07SgKZIqv0kyjijgcR7iFDk3kgXfw==
+next-sanity@9.12.0:
+  version "9.12.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.12.0.tgz#fa4a4254d1a9093f9f4350834f7b2520e338a3ad"
+  integrity sha512-h9j2WA0M19jhnXZSet8JMugf8zGWyx9j586VVPcntbI/LUnFvWxzZEi+tXtS/SELJDSA6xxhOu8JpUZDo7ltWw==
   dependencies:
     "@portabletext/react" "^3.2.1"
     "@sanity/client" "^7.1.0"
     "@sanity/next-loader" "^1.6.0"
     "@sanity/preview-kit" "^6.1.0"
     "@sanity/preview-url-secret" "^2.1.10"
-    "@sanity/visual-editing" "^2.13.20"
+    "@sanity/visual-editing" "^2.14.0"
     groq "^3.88.2"
     history "^5.3.0"
 
