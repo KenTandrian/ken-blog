@@ -2746,10 +2746,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@3.90.0":
-  version "3.90.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.90.0.tgz#0a6cdd109d8fb8deed24fa1a27bfe2ebe4c54b11"
-  integrity sha512-wGprEoiFXcZVK/3qmagdSQC1JDYm2ELX1Wgd+onPQEspb+lbqCqFKphlptpWd9SEn0QtPeFS4je04dbAEUr3Ag==
+"@sanity/vision@3.92.0":
+  version "3.92.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.92.0.tgz#5d08daef469fb999445bb318f4ac7ae4cc284d73"
+  integrity sha512-Ae+rhcYtESdRZ8ntXr/x/NrC3A7c+ehPhrAL7qPqpuAy0voz1aZFb37fr+IBEfqMeDw1mW/HPGZplz8xT1/PpQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
