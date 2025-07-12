@@ -11,7 +11,7 @@ updates:
     schedule:
       interval: weekly
 
-  # Maintain dependencies for npm/yarn
+  # Maintain dependencies for Node.js
   - package-ecosystem: npm
     directory: "/"
     schedule:

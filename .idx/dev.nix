@@ -2,7 +2,7 @@
   channel = "stable-25.05";
   packages = [
     pkgs.nodejs_22
-    pkgs.yarn
+    pkgs.pnpm
   ];
   idx = {
     extensions = [
@@ -12,7 +12,7 @@
       enable = true;
       previews = {
         web = {
-          command = [ "yarn" "dev" "--port" "$PORT" ];
+          command = [ "pnpm" "dev" "--port" "$PORT" ];
           manager = "web";
         };
       };
@@ -22,7 +22,7 @@
         create-env = "cp .env.example .env.local";
       };
       onStart = {
-        install-deps = "yarn install";
+        install-deps = "pnpm install";
       };
     };
   };

@@ -1,7 +1,7 @@
 {
   "name": "ken-blog",
   "version": "0.9.40",
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "pnpm@10.12.4",
   "private": true,
   "scripts": {
     "dev": "next dev",

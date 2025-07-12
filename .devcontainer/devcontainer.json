@@ -2,8 +2,8 @@
   "name": "Next.js & TypeScript",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "yarn install",
-  "postAttachCommand": "yarn dev",
+  "updateContentCommand": "pnpm install",
+  "postAttachCommand": "pnpm dev",
   "customizations": {
     "vscode": {
       "settings": {},

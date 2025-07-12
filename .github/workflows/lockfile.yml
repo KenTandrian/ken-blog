@@ -8,5 +8,5 @@ jobs:
     permissions:
       contents: write
     with:
-      package-manager: yarn
+      package-manager: pnpm
     secrets: inherit
