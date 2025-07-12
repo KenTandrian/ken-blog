@@ -20,6 +20,6 @@ export const projectId = assertValue(
 );
 
 export const apiVersion =
-  process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2024-02-12";
+  process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2025-02-19";
 
 export const useCdn = false;
