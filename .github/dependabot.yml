@@ -16,7 +16,7 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
-    open-pull-requests-limit: 0 # disable
+    open-pull-requests-limit: 10
     groups:
       react:
         patterns:
