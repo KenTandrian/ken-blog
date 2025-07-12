@@ -1,3 +1,4 @@
+import CodeBlock from "@/components/CodeBlock";
 import { urlFor } from "@/sanity/lib/image";
 import type { PortableTextReactComponents } from "next-sanity";
 import Image from "next/image";
@@ -5,6 +6,7 @@ import Link from "next/link";
 
 export const RichTextComponents: Partial<PortableTextReactComponents> = {
   types: {
+    code: CodeBlock,
     image: ({ value }: { value: Image }) => {
       return (
         <div className="relative w-full h-96 m-10 mx-auto">
