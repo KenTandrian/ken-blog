@@ -23,8 +23,9 @@ export async function generateMetadata({
 }: {
   params: Promise<QueryParams>;
 }): Promise<Metadata> {
+  const preview = (await draftMode()).isEnabled ? { token } : undefined;
   const { data } = await loadQuery<Post>(POST_QUERY, await params, {
-    perspective: "published",
+    perspective: preview && preview.token ? "drafts" : "published",
   });
   return {
     title: data.title,
