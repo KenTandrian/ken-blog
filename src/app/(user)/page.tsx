@@ -17,7 +17,7 @@ export default async function HomePage() {
   const initial = await loadQuery<Post[]>(
     POSTS_QUERY,
     {},
-    { perspective: preview ? "previewDrafts" : "published" }
+    { perspective: preview ? "drafts" : "published" }
   );
 
   return preview ? (

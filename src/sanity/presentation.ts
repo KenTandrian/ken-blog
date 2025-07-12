@@ -13,7 +13,7 @@ export const locations: DocumentLocationResolver = (params, context) => {
         listen: `*[_id in [$id,$draftId]]`,
       },
       { id: params.id, draftId: getDraftId(params.id) },
-      { perspective: "previewDrafts" } // returns a draft article if it exists
+      { perspective: "drafts" } // returns a draft article if it exists
     );
 
     // Return a streaming list of locations
