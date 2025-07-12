@@ -8492,10 +8492,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sanity-plugin-iframe-pane@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.2.1.tgz#772c1e587c0f8150f6f48b76e771bc7337ca361d"
-  integrity sha512-PLYqjKEWssNjsP3OKYdAE0wIZHhjHY3P9BM58q+NDBq2rYMv1p0C/cRx7KoCqiVpCVmFr3fuH/mb/XH8AeFWKg==
+sanity-plugin-iframe-pane@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.2.2.tgz#a16e1861c6945c7557de8201412cf48c2054b282"
+  integrity sha512-AH65uUBsFYZTVwxC206PLAr31VrLG9Fjb57GsvWqvljbVzs1l90H/rnQPIstLM+vgYHglLZIcKU3VAXjbX7jPA==
   dependencies:
     "@sanity/icons" "^3.5.7"
     "@sanity/incompatible-plugin" "^1.0.5"
