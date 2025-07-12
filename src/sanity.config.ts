@@ -23,7 +23,6 @@ export default defineConfig({
   theme,
   plugins: [
     codeInput(),
-    structureTool({ defaultDocumentNode }),
     presentationTool({
       previewUrl: {
         origin:
@@ -46,6 +45,7 @@ export default defineConfig({
         ]),
       },
     }),
+    structureTool({ defaultDocumentNode }),
     visionTool({ defaultApiVersion: apiVersion }),
   ],
   studio: {
