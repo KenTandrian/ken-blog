@@ -1,4 +1,4 @@
-import { defineType, defineArrayMember } from "sanity";
+import { defineArrayMember, defineType } from "sanity";
 
 /**
  * This is the schema definition for the rich text fields used for
@@ -38,6 +38,7 @@ export default defineType({
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
+          {title: 'Code', value: 'code'}
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [
@@ -61,7 +62,21 @@ export default defineType({
     // as a block type.
     defineArrayMember({
       type: 'image',
-      options: {hotspot: true},
+      options: { hotspot: true },
+    }),
+    defineArrayMember({
+      type: 'code',
+      options: {
+        language: 'javascript',
+        languageAlternatives: [
+          {title: 'Bash', value: 'sh'},
+          {title: 'CSS', value: 'css'},
+          {title: 'JavaScript', value: 'javascript'},
+          {title: 'Python', value: 'python'},
+          {title: 'TypeScript', value: 'typescript'},
+        ],
+        withFilename: true,
+      }
     }),
   ],
 });

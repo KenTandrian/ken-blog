@@ -1,3 +1,4 @@
+import { codeInput } from "@sanity/code-input";
 import { visionTool } from "@sanity/vision";
 import { defineConfig } from "sanity";
 import { defineDocuments, presentationTool } from "sanity/presentation";
@@ -21,6 +22,7 @@ export default defineConfig({
   schema,
   theme,
   plugins: [
+    codeInput(),
     structureTool({ defaultDocumentNode }),
     presentationTool({
       previewUrl: {
