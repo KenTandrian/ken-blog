@@ -1,7 +1,7 @@
 "use client";
 
 import { POSTS_QUERY } from "@/sanity/lib/queries";
-import { useLiveQuery } from "next-sanity/preview";
+import { useLiveQuery } from "@sanity/preview-kit";
 import BlogList from "./BlogList";
 
 type Props = {

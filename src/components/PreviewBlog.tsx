@@ -1,7 +1,7 @@
 "use client";
 
 import { POST_QUERY } from "@/sanity/lib/queries";
-import { useLiveQuery } from "next-sanity/preview";
+import { useLiveQuery } from "@sanity/preview-kit";
 import { useParams } from "next/navigation";
 import Blog from "./Blog";
 
@@ -21,5 +21,4 @@ export default function PreviewBlog({ post }: Props) {
       </div>
     );
   return <Blog post={data} />;
-};
-
+}
