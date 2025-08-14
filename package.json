@@ -31,7 +31,7 @@
   "devDependencies": {
     "@sanity/eslint-config-studio": "5.0.2",
     "@tailwindcss/postcss": "4.1.12",
-    "@types/node": "24.1.0",
+    "@types/node": "24.2.1",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
     "@types/react-syntax-highlighter": "15.5.13",
