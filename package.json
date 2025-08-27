@@ -21,7 +21,7 @@
     "next-sanity": "10.0.4",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "react-syntax-highlighter": "15.6.3",
+    "react-syntax-highlighter": "15.6.6",
     "rxjs": "7.8.2",
     "sanity": "4.4.1",
     "sanity-plugin-iframe-pane": "4.0.0",
