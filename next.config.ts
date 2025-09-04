@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       { hostname: "cdn.sanity.io", protocol: "https" },
     ],
   },
+  typedRoutes: true,
 };
 
 export default nextConfig;
