@@ -18,7 +18,7 @@
     "@sanity/react-loader": "1.11.19",
     "@sanity/vision": "4.6.1",
     "next": "15.5.2",
-    "next-sanity": "10.0.4",
+    "next-sanity": "10.0.16",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-syntax-highlighter": "15.6.6",
