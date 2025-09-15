@@ -1,7 +1,8 @@
-import { createClient, defineLive } from "next-sanity";
+import { createClient } from "next-sanity";
+import { defineLive } from "next-sanity/live";
 
-import { token } from "@/sanity/lib/token";
 import { apiVersion, dataset, projectId, useCdn } from "@/sanity/env";
+import { token } from "@/sanity/lib/token";
 
 const client = createClient({
   projectId,
