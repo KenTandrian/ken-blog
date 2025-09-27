@@ -1,7 +1,7 @@
 {
   "name": "ken-blog",
   "version": "1.0.50",
-  "packageManager": "pnpm@10.16.1",
+  "packageManager": "pnpm@10.17.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
