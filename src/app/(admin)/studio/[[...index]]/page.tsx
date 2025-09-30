@@ -17,6 +17,7 @@ export const viewport: Viewport = {
   ...studioViewport,
   // Overrides the viewport to resize behavior
   interactiveWidget: "resizes-content",
+  viewportFit: studioViewport.viewportFit as "cover",
 };
 
 export default function StudioPage() {
