@@ -1,6 +1,6 @@
 {
   "name": "ken-blog",
-  "version": "1.1.0",
+  "version": "1.1.10",
   "packageManager": "pnpm@10.18.2",
   "private": true,
   "scripts": {
