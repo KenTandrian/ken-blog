@@ -9,7 +9,7 @@ export const locations: DocumentLocationResolver = (params, context) => {
     // Subscribe to the latest slug and title
     const doc$ = context.documentStore.listenQuery(
       {
-        fetch: `*[_id==$id][0]{slug,title}`, 
+        fetch: `*[_id==$id][0]{slug,title}`,
         listen: `*[_id in [$id,$draftId]]`,
       },
       { id: params.id, draftId: getDraftId(params.id) },
@@ -33,4 +33,4 @@ export const locations: DocumentLocationResolver = (params, context) => {
     );
   }
   return null;
-}
+};

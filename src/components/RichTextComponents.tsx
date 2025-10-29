@@ -1,8 +1,8 @@
-import CodeBlock from "@/components/CodeBlock";
-import { urlFor } from "@/sanity/lib/image";
-import type { PortableTextReactComponents } from "next-sanity";
 import Image from "next/image";
 import Link from "next/link";
+import type { PortableTextReactComponents } from "next-sanity";
+import CodeBlock from "@/components/CodeBlock";
+import { urlFor } from "@/sanity/lib/image";
 
 export const RichTextComponents: Partial<PortableTextReactComponents> = {
   types: {

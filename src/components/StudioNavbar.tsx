@@ -1,12 +1,15 @@
-import Link from "next/link";
 import { ArrowUturnLeftIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 import type { NavbarProps } from "sanity";
 
 const StudioNavbar = (props: NavbarProps) => {
   return (
     <div>
       <div className="flex items-center justify-between p-4 pb-2">
-        <Link className="text-[#F7AB0A] flex items-center hover:underline" href="/">
+        <Link
+          className="text-[#F7AB0A] flex items-center hover:underline"
+          href="/"
+        >
           <ArrowUturnLeftIcon className="h-5 w-5 mr-2 text-[#F7AB0A]" />
           Go To Website
         </Link>
@@ -20,7 +23,7 @@ const StudioNavbar = (props: NavbarProps) => {
           </Link>
         </div>
       </div>
-      <>{props.renderDefault(props)}</>
+      {props.renderDefault(props)}
     </div>
   );
 };

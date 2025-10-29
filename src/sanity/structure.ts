@@ -1,10 +1,12 @@
 import type { SanityDocument } from "next-sanity";
-import { Iframe } from "sanity-plugin-iframe-pane";
 import type { DefaultDocumentNodeResolver } from "sanity/structure";
+import { Iframe } from "sanity-plugin-iframe-pane";
 
 // Customise this function to show the correct URL based on the current document
 function getPreviewUrl(doc: SanityDocument) {
-  return doc?.slug?.current ? `/post/${doc.slug.current}` : new Error('Missing slug');
+  return doc?.slug?.current
+    ? `/post/${doc.slug.current}`
+    : new Error("Missing slug");
 }
 
 export const defaultDocumentNode: DefaultDocumentNodeResolver = (
@@ -22,13 +24,13 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
             url: {
               origin: "same-origin",
               preview: getPreviewUrl,
-              draftMode: '/api/draft' // the route you enable draft mode, see: https://github.com/sanity-io/visual-editing/tree/main/packages/preview-url-secret#sanitypreview-url-secret
+              draftMode: "/api/draft", // the route you enable draft mode, see: https://github.com/sanity-io/visual-editing/tree/main/packages/preview-url-secret#sanitypreview-url-secret
             },
 
             // Optional: Set the default size
             defaultSize: "desktop", // default: `desktop`
 
-            // Optional: Display the Url in the pane 
+            // Optional: Display the Url in the pane
             showDisplayUrl: true, // boolean. default `true`.
 
             // Optional: Add a reload button, or reload on new document revisions
@@ -43,8 +45,8 @@ export const defaultDocumentNode: DefaultDocumentNodeResolver = (
             // See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
             attributes: {
               allow: "fullscreen", // string, optional
-              referrerPolicy: 'strict-origin-when-cross-origin', // string, optional
-              sandbox: 'allow-same-origin allow-scripts', // string, optional
+              referrerPolicy: "strict-origin-when-cross-origin", // string, optional
+              sandbox: "allow-same-origin allow-scripts", // string, optional
             },
           })
           .title("Preview"),

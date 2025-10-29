@@ -1,6 +1,6 @@
-import { urlFor } from "@/sanity/lib/image";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { urlFor } from "@/sanity/lib/image";
 
 const BlogItem = ({ post }: { post: Post }) => {
   return (

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { QueryParams } from "next-sanity";
 import { draftMode } from "next/headers";
+import type { QueryParams } from "next-sanity";
 
 import Blog from "@/components/Blog";
 import PreviewBlog from "@/components/PreviewBlog";
@@ -25,7 +25,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const preview = (await draftMode()).isEnabled ? { token } : undefined;
   const { data } = await loadQuery<Post>(POST_QUERY, await params, {
-    perspective: preview && preview.token ? "drafts" : "published",
+    perspective: preview?.token ? "drafts" : "published",
   });
   return {
     title: data.title,
@@ -36,7 +36,7 @@ export async function generateMetadata({
 const Post = async ({ params }: { params: Promise<QueryParams> }) => {
   const preview = (await draftMode()).isEnabled ? { token } : undefined;
   const initial = await loadQuery<Post>(POST_QUERY, await params, {
-    perspective: preview && preview.token ? "drafts" : "published",
+    perspective: preview?.token ? "drafts" : "published",
   });
 
   return preview?.token ? (
