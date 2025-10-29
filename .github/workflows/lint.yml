@@ -1,0 +1,27 @@
+name: Lint Application
+on: pull_request
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  RUNNER_OS: linux
+  RUNNER_ARCH: x64
+
+jobs:
+  lint:
+    name: Lint application with Node.js
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: 📦 Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: 📦 Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: 🧹 Code Linting
+        run: pnpm lint
