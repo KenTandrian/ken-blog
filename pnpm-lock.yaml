@@ -12,8 +12,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0(react@19.2.0)
       '@portabletext/react':
-        specifier: 4.0.3
-        version: 4.0.3(react@19.2.0)
+        specifier: 5.0.0
+        version: 5.0.0(react@19.2.0)
       '@sanity/code-input':
         specifier: 6.0.3
         version: 6.0.3(@babel/runtime@7.28.4)(@codemirror/lint@6.9.2)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(codemirror@6.0.1)(react-dom@19.2.0(react@19.2.0))(react-is@19.2.0)(react@19.2.0)(sanity@4.14.1(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.0(@sanity/schema@4.14.1(@types/react@19.2.2)(debug@4.4.3))(@sanity/types@4.14.1(@types/react@19.2.2)))(@types/node@24.10.0)(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(immer@10.2.0)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(styled-components@6.1.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(typescript@5.9.3)(yaml@2.8.1))(styled-components@6.1.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0))

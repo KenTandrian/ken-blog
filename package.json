@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@heroicons/react": "2.2.0",
-    "@portabletext/react": "4.0.3",
+    "@portabletext/react": "5.0.0",
     "@sanity/code-input": "6.0.3",
     "@sanity/image-url": "1.2.0",
     "@sanity/preview-kit": "6.1.3",
