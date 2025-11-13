@@ -46,7 +46,7 @@ Ken's Blog is a blog application built using Next.js and Tailwind CSS, with Sani
 
 ### Development
 
-[![eslint](https://img.shields.io/github/package-json/dependency-version/KenTandrian/sanity-v3-blog/dev/eslint)](https://www.npmjs.com/package/eslint)
+[![@biomejs/biome](https://img.shields.io/github/package-json/dependency-version/KenTandrian/sanity-v3-blog/dev/@biomejs/biome)](https://www.npmjs.com/package/@biomejs/biome)
 [![tailwindcss](https://img.shields.io/github/package-json/dependency-version/KenTandrian/sanity-v3-blog/dev/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
 [![typescript](https://img.shields.io/github/package-json/dependency-version/KenTandrian/sanity-v3-blog/dev/typescript)](https://www.npmjs.com/package/typescript)
 
