@@ -26,6 +26,3 @@ updates:
         patterns:
           - "sanity"
           - "@sanity/*"
-      typescript-eslint:
-        patterns:
-          - "@typescript-eslint/*"
