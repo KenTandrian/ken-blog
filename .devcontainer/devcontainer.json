@@ -8,8 +8,8 @@
     "vscode": {
       "settings": {},
       "extensions": [
+        "biomejs.biome",
         "bradlc.vscode-tailwindcss",
-        "esbenp.prettier-vscode",
         "mhutchie.git-graph"
       ]
     }
