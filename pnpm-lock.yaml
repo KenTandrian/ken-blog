@@ -12,8 +12,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0(react@19.2.1)
       '@portabletext/react':
-        specifier: 5.0.0
-        version: 5.0.0(react@19.2.1)
+        specifier: 6.0.0
+        version: 6.0.0(react@19.2.1)
       '@sanity/code-input':
         specifier: 6.0.3
         version: 6.0.3(@babel/runtime@7.28.4)(@codemirror/lint@6.9.2)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.2.2)(codemirror@6.0.2)(react-dom@19.2.1(react@19.2.1))(react-is@19.2.1)(react@19.2.1)(sanity@4.20.3(@emotion/is-prop-valid@1.2.2)(@portabletext/sanity-bridge@1.2.10(@sanity/schema@4.20.3(@types/react@19.2.7)(debug@4.4.3))(@sanity/types@4.20.3(@types/react@19.2.7)))(@types/node@25.0.0)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(styled-components@6.1.19(react-dom@19.2.1(react@19.2.1))(react@19.2.1))(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.1.19(react-dom@19.2.1(react@19.2.1))(react@19.2.1))
@@ -1821,6 +1821,12 @@ packages:
     peerDependencies:
       react: ^18.2 || ^19
 
+  '@portabletext/react@6.0.0':
+    resolution: {integrity: sha512-8jzmFruC6fhC8A47c+RdiFfldzRq/rRW/FwRsr5ZMeNeCf3S0dXVlM/LJQRWH5JLQXbH3oxINN1UV2mbuZQJ9w==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+    peerDependencies:
+      react: ^18.2 || ^19
+
   '@portabletext/sanity-bridge@1.2.10':
     resolution: {integrity: sha512-hsCJcGpjrqQJO57MlS88ra9bki00RwNS84qU/9kzbGGK7FDAv+i5bIwoUgYCkLCu48toV/YiAQgcES7uQ7+Jvg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
@@ -1840,8 +1846,16 @@ packages:
     resolution: {integrity: sha512-Jj/QIy3vzZCNcxiUGM7KjGhUhyVjch+9pOzotWRARPNe07R6nbF/cRsKL70q5Xizf+6PVtFYwks4CSXKInC+wg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
-  '@portabletext/types@3.0.0':
-    resolution: {integrity: sha512-7U8+bFcnguNtXr4rwMDj0EvJJDRzLaaof2mQqCjUcqxuuJpAppFaATZgrKmPI1uBgtFMi4unk1nIaOOmLHrX8Q==}
+  '@portabletext/toolkit@5.0.0':
+    resolution: {integrity: sha512-jcDOv1RKO/j08pdnc/6i5tULcAzEYCR41XDVYOqmmX8bvEJbWJabhpVjHT1ls6p27v9gtA4NG2SO5xdMpgWSQQ==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+
+  '@portabletext/types@3.0.1':
+    resolution: {integrity: sha512-Axessc2mZ6tjbD2qIZdTZIEfBtzJBe/1pzKF372cUar6ccUCfgXU4vaKgIbqB33mB6rI75omx9rrm+SgR4rIAA==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+
+  '@portabletext/types@4.0.0':
+    resolution: {integrity: sha512-mEoN82OQckrshqRx8idp+x8B/OpMfUMSjQp1w1wZFM3hf8cplGhK59Sa/UuGU6XdgAnFq90vJtnj5ejOmZmhvw==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
   '@rexxars/react-json-inspector@9.0.1':
@@ -7306,7 +7320,13 @@ snapshots:
   '@portabletext/react@5.0.0(react@19.2.1)':
     dependencies:
       '@portabletext/toolkit': 4.0.0
-      '@portabletext/types': 3.0.0
+      '@portabletext/types': 3.0.1
+      react: 19.2.1
+
+  '@portabletext/react@6.0.0(react@19.2.1)':
+    dependencies:
+      '@portabletext/toolkit': 5.0.0
+      '@portabletext/types': 4.0.0
       react: 19.2.1
 
   '@portabletext/sanity-bridge@1.2.10(@sanity/schema@4.20.3(@types/react@19.2.7)(debug@4.4.3))(@sanity/types@4.20.3(@types/react@19.2.7))':
@@ -7321,13 +7341,19 @@ snapshots:
   '@portabletext/to-html@4.0.1':
     dependencies:
       '@portabletext/toolkit': 4.0.0
-      '@portabletext/types': 3.0.0
+      '@portabletext/types': 3.0.1
 
   '@portabletext/toolkit@4.0.0':
     dependencies:
-      '@portabletext/types': 3.0.0
+      '@portabletext/types': 3.0.1
 
-  '@portabletext/types@3.0.0': {}
+  '@portabletext/toolkit@5.0.0':
+    dependencies:
+      '@portabletext/types': 4.0.0
+
+  '@portabletext/types@3.0.1': {}
+
+  '@portabletext/types@4.0.0': {}
 
   '@rexxars/react-json-inspector@9.0.1(react@19.2.1)':
     dependencies:
