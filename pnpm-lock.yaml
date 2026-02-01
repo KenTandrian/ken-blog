@@ -33,8 +33,8 @@ importers:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-sanity:
-        specifier: 12.0.7
-        version: 12.0.7(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))(next@16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.7.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.1.0)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(vitest@3.2.4(@types/node@25.1.0)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.2)(tsx@4.21.0)(yaml@2.8.2))(yaml@2.8.2))(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
+        specifier: 12.0.16
+        version: 12.0.16(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))(next@16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.7.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.1.0)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(vitest@3.2.4(@types/node@25.1.0)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.2)(tsx@4.21.0)(yaml@2.8.2))(yaml@2.8.2))(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -2160,6 +2160,10 @@ packages:
       svelte:
         optional: true
 
+  '@sanity/webhook@4.0.4':
+    resolution: {integrity: sha512-c8LmzR5Wx93zJ10ohhp0XlmPrTNSFyvPcLbNY/sN45Wj5VOngz4FbBMbX9j64sSQLt+676U6OhiVfjs1yw3YCw==}
+    engines: {node: '>=20.0.0'}
+
   '@sanity/worker-channels@1.1.0':
     resolution: {integrity: sha512-25SS2RuQFRLZ8STlW7fdxb7vvxMWhryh3tY2ADQaZiaQt1r57GZgeMma85AG0mSesaMvFL1ndO+XiBOFHBHSmg==}
     engines: {node: '>=18.2'}
@@ -3417,6 +3421,10 @@ packages:
     resolution: {integrity: sha512-CNI1dRPMX1dVv8Mfp+U7J/zq9mxXRhc5pXtAgXMHxPWnp6grCSN8ivmZWIKqGW587zbYBUWrKJzBjaVLK8dHdw==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
+  groq@5.7.0:
+    resolution: {integrity: sha512-6xyVq9nA4TSOFLzpW6oLAmrfYyLs5sC4/Pa4mGuIb+6alhjeZ3aIbKt8pyHFKG0bpJ+BYhXyoarm5H+zoP0CGw==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+
   gunzip-maybe@1.4.2:
     resolution: {integrity: sha512-4haO1M4mLO91PW57BMsDFf75UmwoRX0GkdD+Faw+Lr+r/OZrOCS0pIBwOL1xCKQqnQzbNFGgK2V2CpBUPeFNTw==}
     hasBin: true
@@ -4048,15 +4056,15 @@ packages:
     engines: {node: ^18 || >=20}
     hasBin: true
 
-  next-sanity@12.0.7:
-    resolution: {integrity: sha512-KGniJRRzV5hbrlfaNyGnRH29dWBGk2pnD5D/iALiVjPyiVKd9QbJKlbr62t/pFJbMme9qWCYQObMuQHiJbxSaw==}
+  next-sanity@12.0.16:
+    resolution: {integrity: sha512-/Kd862OTpERfyvL+Wo6mvRU8G7p/4iPHYIDSrDyHCKPvG8wBqSzkq4rJxuLoFzNIZY4OuxSboKHFtQOWNIqHpQ==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
-      '@sanity/client': ^7.13.2
+      '@sanity/client': ^7.14.1
       next: ^16.0.0-0
       react: ^19.2.3
       react-dom: ^19.2.3
-      sanity: ^5.1.0
+      sanity: ^5.7.0
       styled-components: ^6.1
 
   next@16.1.6:
@@ -8040,6 +8048,8 @@ snapshots:
       - react-is
       - typescript
 
+  '@sanity/webhook@4.0.4': {}
+
   '@sanity/worker-channels@1.1.0': {}
 
   '@sentry-internal/browser-utils@8.55.0':
@@ -9296,6 +9306,8 @@ snapshots:
 
   groq@5.6.0: {}
 
+  groq@5.7.0: {}
+
   gunzip-maybe@1.4.2:
     dependencies:
       browserify-zlib: 0.1.4
@@ -9869,7 +9881,7 @@ snapshots:
 
   nanoid@5.1.6: {}
 
-  next-sanity@12.0.7(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))(next@16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.7.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.1.0)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(vitest@3.2.4(@types/node@25.1.0)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.2)(tsx@4.21.0)(yaml@2.8.2))(yaml@2.8.2))(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3):
+  next-sanity@12.0.16(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))(next@16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.7.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.1.0)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(vitest@3.2.4(@types/node@25.1.0)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.2)(tsx@4.21.0)(yaml@2.8.2))(yaml@2.8.2))(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3):
     dependencies:
       '@portabletext/react': 6.0.2(react@19.2.4)
       '@sanity/client': 7.14.1(debug@4.4.3)
@@ -9877,8 +9889,9 @@ snapshots:
       '@sanity/presentation-comlink': 2.0.1(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))
       '@sanity/preview-url-secret': 4.0.2(@sanity/client@7.14.1)
       '@sanity/visual-editing': 5.1.1(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.14.1)(@sanity/types@5.7.0(@types/react@19.2.10))(next@16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(styled-components@6.3.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
+      '@sanity/webhook': 4.0.4
       dequal: 2.0.3
-      groq: 5.6.0
+      groq: 5.7.0
       history: 5.3.0
       next: 16.1.6(@babel/core@7.28.6)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
