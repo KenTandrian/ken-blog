@@ -33,8 +33,8 @@ importers:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next-sanity:
-        specifier: 12.0.16
-        version: 12.0.16(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.16.0)(@sanity/types@5.12.0(@types/react@19.2.14))(next@16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.9.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.3.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.31.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
+        specifier: 12.1.0
+        version: 12.1.0(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.16.0)(@sanity/types@5.12.0(@types/react@19.2.14))(next@16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.9.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.3.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.31.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -4002,15 +4002,15 @@ packages:
     engines: {node: ^18 || >=20}
     hasBin: true
 
-  next-sanity@12.0.16:
-    resolution: {integrity: sha512-/Kd862OTpERfyvL+Wo6mvRU8G7p/4iPHYIDSrDyHCKPvG8wBqSzkq4rJxuLoFzNIZY4OuxSboKHFtQOWNIqHpQ==}
+  next-sanity@12.1.0:
+    resolution: {integrity: sha512-zokqCJFxQ1EpG0LM6vfnQDydJJNI+gyf8/bAkZLyE61jVkQ/d1PehnFvKRamVFTbu2v8i1ojbzxIPp9zQ3q1gg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
       '@sanity/client': ^7.14.1
       next: ^16.0.0-0
       react: ^19.2.3
       react-dom: ^19.2.3
-      sanity: ^5.7.0
+      sanity: ^5.8.1
       styled-components: ^6.1
 
   next@16.1.6:
@@ -9754,7 +9754,7 @@ snapshots:
 
   nanoid@5.1.6: {}
 
-  next-sanity@12.0.16(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.16.0)(@sanity/types@5.12.0(@types/react@19.2.14))(next@16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.9.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.3.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.31.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3):
+  next-sanity@12.1.0(@emotion/is-prop-valid@1.4.0)(@sanity/client@7.16.0)(@sanity/types@5.12.0(@types/react@19.2.14))(next@16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.9.0(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.3.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(babel-plugin-react-compiler@1.0.0)(immer@11.0.1)(jiti@2.6.1)(lightningcss@1.31.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3):
     dependencies:
       '@portabletext/react': 6.0.2(react@19.2.4)
       '@sanity/client': 7.16.0(debug@4.4.3)
