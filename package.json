@@ -19,7 +19,7 @@
     "@sanity/preview-kit": "6.2.0",
     "@sanity/react-loader": "2.0.10",
     "@sanity/vision": "5.24.0",
-    "next": "16.2.4",
+    "next": "16.2.6",
     "next-sanity": "12.4.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
