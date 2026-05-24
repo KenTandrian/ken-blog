@@ -28,7 +28,7 @@
     "sanity": "5.26.0",
     "sanity-plugin-iframe-pane": "5.0.12",
     "sharp": "0.34.5",
-    "styled-components": "6.4.1"
+    "styled-components": "6.4.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.14",
