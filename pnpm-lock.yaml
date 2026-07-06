@@ -51,8 +51,8 @@ importers:
         specifier: 6.3.0
         version: 6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.7)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.7)(rolldown@1.1.4)(vite@8.1.2(@types/node@26.1.0)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.3(@noble/hashes@2.2.0)(@types/node@26.1.0)(babel-plugin-react-compiler@1.0.0)(esbuild@0.28.1)(yaml@2.9.0))(@types/node@26.1.0)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(babel-plugin-react-compiler@1.0.0)(esbuild@0.28.1)(immer@11.0.1)(jiti@2.7.0)(prismjs@1.30.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.4)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@5.9.3)
       sanity-plugin-iframe-pane:
-        specifier: 5.0.17
-        version: 5.0.17(bdba525e33cc60a78f21c3442d075534)
+        specifier: 5.0.22
+        version: 5.0.22(bdba525e33cc60a78f21c3442d075534)
       sharp:
         specifier: 0.35.3
         version: 0.35.3(@types/node@26.1.0)
@@ -2428,6 +2428,12 @@ packages:
     peerDependencies:
       '@sanity/client': ^7.22.1
 
+  '@sanity/preview-url-secret@4.0.8':
+    resolution: {integrity: sha512-n2ulvDpA8z9UOhnyMPB4WC2w3e/noqL2+gE1f+WQyAE2v0OJsYOkTQzNCe9FU0UaVtbuBTNZI5xj+ei6Qxql/Q==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+    peerDependencies:
+      '@sanity/client': ^7.23.0
+
   '@sanity/prism-groq@1.1.2':
     resolution: {integrity: sha512-McMw9U5kuYAgIwyNodhFKdarM0cPme6UYBR6ms6YBNEO8Qqu5zGHydUeORaJ/w4qdFKGB1oWjBjy525ed6LXaQ==}
     peerDependencies:
@@ -2486,6 +2492,15 @@ packages:
 
   '@sanity/ui@3.3.2':
     resolution: {integrity: sha512-kcNaJsYLZFpvqqoZGuPOn/fvN+vO0/BbDOb7yf3F4Yio6UpKVcxblGpHmmk47KI8zagjbdDKTozACLwqQbMD9A==}
+    engines: {node: '>=20.19 <22 || >=22.12'}
+    peerDependencies:
+      react: ^18 || >=19.0.0-0
+      react-dom: ^18 || >=19.0.0-0
+      react-is: ^18 || >=19.0.0-0
+      styled-components: ^5.2 || ^6
+
+  '@sanity/ui@3.3.3':
+    resolution: {integrity: sha512-ZvdxPliR1trRCVjlpyMOotXtcezLTEo+ygGoZkm0DrriDFvCtVBwIL8+f9AMSr8vlimIOeYjO6owlcIUnlOnsg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
       react: ^18 || >=19.0.0-0
@@ -4713,8 +4728,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sanity-plugin-iframe-pane@5.0.17:
-    resolution: {integrity: sha512-mHW+x5ahaVCsxLI+Gi9Pqq41S4E4mZ6Tc7cbR+5XIBdiKrf6Tr0tq9qGnJUznVcYhRXqpAQKJg2zjTIQTV712g==}
+  sanity-plugin-iframe-pane@5.0.22:
+    resolution: {integrity: sha512-rgCqIwhntTO7gNBLAbhA+sGm+K0JJJx1XzJlZXkeKd8kOlwnMHkR1XyJh5G454/40Rm7kd1VNHUQYtugwUuZcg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
       react: ^19.2
@@ -7952,7 +7967,7 @@ snapshots:
     dependencies:
       '@sanity/icons': 3.8.0(react@19.2.7)
       '@sanity/types': 6.3.0(@types/react@19.2.17)
-      '@sanity/ui': 3.3.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+      '@sanity/ui': 3.3.3(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       lodash-es: 4.18.1
       react: 19.2.7
       react-is: 19.2.7
@@ -8053,6 +8068,11 @@ snapshots:
       - '@sanity/types'
 
   '@sanity/preview-url-secret@4.0.7(@sanity/client@7.23.0)':
+    dependencies:
+      '@sanity/client': 7.23.0
+      '@sanity/uuid': 3.0.2
+
+  '@sanity/preview-url-secret@4.0.8(@sanity/client@7.23.0)':
     dependencies:
       '@sanity/client': 7.23.0
       '@sanity/uuid': 3.0.2
@@ -8216,6 +8236,24 @@ snapshots:
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
 
+  '@sanity/ui@3.3.3(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
+    dependencies:
+      '@floating-ui/react-dom': 2.1.8(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@juggle/resize-observer': 3.4.0
+      '@sanity/color': 3.0.6
+      '@sanity/icons': 3.8.0(react@19.2.7)
+      csstype: 3.2.3
+      motion: 12.42.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      react: 19.2.7
+      react-compiler-runtime: 1.0.0(react@19.2.7)
+      react-dom: 19.2.7(react@19.2.7)
+      react-is: 19.2.7
+      react-refractor: 4.0.0(react@19.2.7)
+      styled-components: 6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      use-effect-event: 2.0.3(react@19.2.7)
+    transitivePeerDependencies:
+      - '@emotion/is-prop-valid'
+
   '@sanity/util@6.3.0(@types/react@19.2.17)':
     dependencies:
       '@date-fns/tz': 1.5.0
@@ -8302,8 +8340,8 @@ snapshots:
       '@sanity/insert-menu': 3.0.8(@emotion/is-prop-valid@1.4.0)(@sanity/types@6.3.0(@types/react@19.2.17))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       '@sanity/mutate': 0.18.1(xstate@5.32.3)
       '@sanity/presentation-comlink': 2.1.0(@sanity/client@7.23.0)(@sanity/types@6.3.0(@types/react@19.2.17))
-      '@sanity/preview-url-secret': 4.0.7(@sanity/client@7.23.0)
-      '@sanity/ui': 3.3.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+      '@sanity/preview-url-secret': 4.0.8(@sanity/client@7.23.0)
+      '@sanity/ui': 3.3.3(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       '@sanity/visual-editing-csm': 3.0.10(@sanity/client@7.23.0)(@sanity/types@6.3.0(@types/react@19.2.17))(typescript@5.9.3)
       '@vercel/stega': 1.1.0
       dequal: 2.0.3
@@ -10441,11 +10479,11 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sanity-plugin-iframe-pane@5.0.17(bdba525e33cc60a78f21c3442d075534):
+  sanity-plugin-iframe-pane@5.0.22(bdba525e33cc60a78f21c3442d075534):
     dependencies:
-      '@sanity/icons': 3.8.0(react@19.2.7)
-      '@sanity/preview-url-secret': 4.0.7(@sanity/client@7.23.0)
-      '@sanity/ui': 3.3.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+      '@sanity/icons': 5.0.0(react@19.2.7)
+      '@sanity/preview-url-secret': 4.0.8(@sanity/client@7.23.0)
+      '@sanity/ui': 3.3.3(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(styled-components@6.4.3(css-to-react-native@3.2.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       motion: 12.42.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
