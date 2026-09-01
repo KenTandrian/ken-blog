@@ -12,8 +12,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0(react@19.2.8)
       '@portabletext/react':
-        specifier: 7.0.1
-        version: 7.0.1(react@19.2.8)
+        specifier: 8.0.1
+        version: 8.0.1(react@19.2.8)
       '@sanity/code-input':
         specifier: 7.3.8
         version: 7.3.8(eae40416956be534a31c77ec3ea26b2d)
